@@ -132,7 +132,7 @@ As Python [Documentation][py_tu] proves it, a Named Tuple is a great way of stru
 {% endhighlight %}
 
 
-Check out the project's [Git-Hub Page][project_github] for for more info.
+Check out the project's [Git-Hub Repository][project_github] for for more info.
 
 [Reddit-challenge]: https://www.reddit.com/r/dailyprogrammer/comments/4vrb8n/weekly_25_escape_the_trolls/
 [project_github]: https://github.com/cstml/escape_the_trolls
