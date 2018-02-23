@@ -7,11 +7,12 @@ tags: Python Educational WIP
 ---
 ### Disclaimer
 This project is currently WIP. I am working on developing it and refining it in my after-work hours. Thus I will continue updating this post, so please stay tuned in.
+
 # An intro
 ![Animation showing game][animation]
 
 
-Although at work I currently do a lot of visual coding (Rhino's Grasshopper mostly) and geometry generation, I haven't been coding like I used for a while now. So to kick some of that sedimented rust that I have accumulated I challenged myself to learn a new coding language. The *almighty* __'Python'__.
+Although at work I currently do a lot of visual coding (Rhino's Grasshopper mostly) and geometry generation, I haven't been coding like I used to for a while now. So to kick some of that sedimented dust that I have accumulated I challenged myself to learn a new coding language. The *almighty* __'Python'__.
 
  Looking up an idea for a project I stumbled upon: [Reddit Daily Programmer][Reddit-challenge]
 
