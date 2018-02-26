@@ -7,11 +7,12 @@ tags: Python Educational WIP
 ---
 ### Disclaimer
 This project is currently WIP. I am working on developing it and refining it in my after-work hours. Thus I will continue updating this post, so please stay tuned in.
+
 # An intro
 ![Animation showing game][animation]
 
 
-Although at work I currently do a lot of visual coding (Rhino's Grasshopper mostly) and geometry generation, I haven't been coding like I used for a while now. So to kick some of that sedimented rust that I have accumulated I challenged myself to learn a new coding language. The *almighty* __'Python'__.
+Although at work I currently do a lot of visual coding (Rhino's Grasshopper mostly) and geometry generation, I haven't been coding like I used to for a while now. So to kick some of that sedimented dust that I have accumulated I challenged myself to learn a new coding language. The *almighty* __'Python'__.
 
  Looking up an idea for a project I stumbled upon: [Reddit Daily Programmer][Reddit-challenge]
 
@@ -131,7 +132,7 @@ As Python [Documentation][py_tu] proves it, a Named Tuple is a great way of stru
 {% endhighlight %}
 
 
-Check out the project's [Git-Hub Page][project_github] for for more info.
+Check out the project's [Git-Hub Repository][project_github] for for more info.
 
 [Reddit-challenge]: https://www.reddit.com/r/dailyprogrammer/comments/4vrb8n/weekly_25_escape_the_trolls/
 [project_github]: https://github.com/cstml/escape_the_trolls
