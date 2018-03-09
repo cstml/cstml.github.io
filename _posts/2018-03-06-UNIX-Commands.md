@@ -259,21 +259,6 @@ These are the basic input output and error ouputs chanels of UNIX. The best way 
 cd /Users/Costumel/Coding/01_Website/cstml_web/Jupyter_Notebook/
 ls
 echo
-```
-
-    2018-03-06-UNIX-Commands.ipynb
-    input.txt
-    output.txt
-    output2.txt
-    
-
-
-
-```bash
-%%bash
-cd /Users/Costumel/Coding/01_Website/cstml_web/Jupyter_Notebook/
-ls
-echo
 (ls;ls) > output.txt
 ls
 echo
@@ -282,29 +267,26 @@ cat output.txt
 echo
 echo "#Contents of output2.txt:"
 sort output.txt > output2.txt
+cat output.txt >> output2.txt
 cat output2.txt
 rm output2.txt
+rm output.txt
 ```
 
     2018-03-06-UNIX-Commands.ipynb
     input.txt
-    output.txt
-    output2.txt
     
     2018-03-06-UNIX-Commands.ipynb
     input.txt
     output.txt
-    output2.txt
     
     #Contents of output.txt:
     2018-03-06-UNIX-Commands.ipynb
     input.txt
     output.txt
-    output2.txt
     2018-03-06-UNIX-Commands.ipynb
     input.txt
     output.txt
-    output2.txt
     
     #Contents of output2.txt:
     2018-03-06-UNIX-Commands.ipynb
@@ -313,48 +295,16 @@ rm output2.txt
     input.txt
     output.txt
     output.txt
-    output2.txt
-    output2.txt
+    2018-03-06-UNIX-Commands.ipynb
+    input.txt
+    output.txt
+    2018-03-06-UNIX-Commands.ipynb
+    input.txt
+    output.txt
 
 
+Basically in this example we are using the output from **ls** to write in **output.txt**. More interestingly we manged to group the two commands by putting them in a paranthesis, which will also group their output into one. 
 
-```bash
-%%bash
-cd /Users/Costumel/Coding/01_Website/cstml_web/Jupyter_Notebook/
-ls
-echo
-(ls;ls) > output.txt
-ls
-echo
-echo "#Contents of the opperation (ls;ls) are simply writen to the file due to the use of >:"
-cat output.txt
-echo
-echo "#Contents of output2.txt are appended due to the use of >>:"
-sort output.txt >> output2.txt
-cat output2.txt
-```
+An interesting and useful thing is the difference between **>** and **>>**. If we look carefully when using **>** we will see that the existing contents of the file will be overwritten whilst when using **>>** the contents of the file will be appended to the end of the document.
 
-    2018-03-06-UNIX-Commands.ipynb
-    input.txt
-    output.txt
-    
-    2018-03-06-UNIX-Commands.ipynb
-    input.txt
-    output.txt
-    
-    #Contents of the opperation (ls;ls) are simply writen to the file due to the use of >:
-    2018-03-06-UNIX-Commands.ipynb
-    input.txt
-    output.txt
-    2018-03-06-UNIX-Commands.ipynb
-    input.txt
-    output.txt
-    
-    #Contents of output2.txt are appended due to the use of >>:
-    2018-03-06-UNIX-Commands.ipynb
-    2018-03-06-UNIX-Commands.ipynb
-    input.txt
-    input.txt
-    output.txt
-    output.txt
-
+And basically that was it, hope you find it useful!
