@@ -45,9 +45,9 @@ virtualenv env
 
 This will basically set up an env folder which contains 
 
-	bin: files that interact with the virtual environment
-	include: C headers that compile the Python packages
-	lib: a copy of the Python version along with a site-packages folder where each dependency is installed
+> * bin: files that interact with the virtual environment
+> * include: C headers that compile the Python packages
+> * lib: a copy of the Python version along with a site-packages folder where each dependency is installed
 
 To use the __virtual environment’s__ packages and resources in isolation, the environment needs to be *activated*.
 
@@ -71,12 +71,13 @@ To install simply type:
 pip install virtualenvwrapper
 ```
 
-	Once it’s installed, we’ll need to activate its shell functions. We can do this by running source on the installed virtualenvwrapper.sh script. When you first install it with pip, the output of the installation will tell you the exact location of virtualenvwrapper.sh. Or you can simply run the following:
+> * Once it’s installed, we’ll need to activate its shell functions. We can do this by running source on the installed virtualenvwrapper.sh script. When you first install it with pip, the output of the installation will tell you the exact location of virtualenvwrapper.sh. Or you can simply run the following:
 
 ```bash
 which virtualenvwrapper.sh
 ```
 
+*To Be Continued*
 
 
 
