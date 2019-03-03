@@ -68,3 +68,13 @@ Well then all you have to do is
 `:norm 8i-` and **BAM** `--------`
 ## Terminal
 
+## Searching
+
+### Searching and replacing across the buffer
+```
+:bufdo %s/pattern/replace/ge | update
+```
+### Pattern notation:
+```
+\<old_text\> 
+```
