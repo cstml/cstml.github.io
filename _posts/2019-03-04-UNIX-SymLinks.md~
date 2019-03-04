@@ -6,7 +6,7 @@ title: "Unix Symlinks"
 # Symlinks
 
 Good article on the subject can be found at:
-(link)(https://medium.com/@meghamohan/hard-link-and-symbolic-link-3cad74e5b5dc)
+[link](https://medium.com/@meghamohan/hard-link-and-symbolic-link-3cad74e5b5dc)
 
 ## Hardlink
 A hardlink is much like a pointer to the same information, which in this case it is called inode. 
