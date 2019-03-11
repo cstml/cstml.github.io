@@ -133,7 +133,7 @@ To correct a files indentation
 At any point you can use several clipboards inside VIM
 - They are called `registers` and you can see them by typing `:reg`
 - To choose which register to use: `"a` for register a
-- To yank a line into a register `"ayy"
+- To yank a line into a register `"ayy"`
 - To paste from a register `"aP"`
 --------------------------------------------
 --------------------------------------------
