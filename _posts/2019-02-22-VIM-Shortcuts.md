@@ -3,6 +3,9 @@ layout: post
 title: "VIM Cheat Sheet"
 ---
 
+Awesome Articles that I have found across the web:
+- https://medium.freecodecamp.org/learn-linux-vim-basic-features-19134461ab85
+
 # VIM Commands 
 
 I am constantly trying to improve my VIM knowledge. Being an old Linux user I love VIM and have always seen it as real art. Aaaanyway, let's jump right into it:
@@ -88,3 +91,38 @@ Well then all you have to do is
 :echo $VIM
 :echo $VIMRUNTIME
 ```
+
+--------------------------------------------
+# Tabs
+A cool thing to do with tabs is save the current session you are in. 
+- Have all of the tabs in your session open
+- Type the next command:
+```
+:mksession header-files-work.vim
+```
+- Close Vim
+
+To open the session either:
+- start the session with vim -S header-files-work.vim
+- in vim type `:source header-files-work.vim` 
+
+To update a session:
+- simply type : `:mks!`
+
+--------------------------------------------
+# Autocomplete without a plugin 
+`ctrl+n` in edit mode
+
+
+--------------------------------------------
+# Marks 
+Marks are pretty cool ways of navigating files
+- to create a mark at a specific line in the local file : press `m` followed by a lower case letter `a`
+- to see marks in the document `:marks`
+- to create marks across documents : press `m` followed by a capital letter`
+- to go to a mark : press ``` followed by the letter you want to go to 
+
+#Sources: 
+- https://medium.freecodecamp.org/learn-linux-vim-basic-features-19134461ab85
+
+
