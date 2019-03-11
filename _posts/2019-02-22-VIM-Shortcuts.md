@@ -122,7 +122,22 @@ Marks are pretty cool ways of navigating files
 - to create marks across documents : press `m` followed by a capital letter`
 - to go to a mark : press ``` followed by the letter you want to go to 
 
-#Sources: 
-- https://medium.freecodecamp.org/learn-linux-vim-basic-features-19134461ab85
+--------------------------------------------
+# Indentation 
+To correct a files indentation
+```
+=i{
+```
+--------------------------------------------
+# Clipboards
+At any point you can use several clipboards inside VIM
+- They are called `registers` and you can see them by typing `:reg`
+- To choose which register to use: `"a` for register a
+- To yank a line into a register `"ayy"
+- To paste from a register `"aP"`
+--------------------------------------------
+--------------------------------------------
+# Sources: 
+- (https://medium.freecodecamp.org/learn-linux-vim-basic-features-19134461ab85)
 
 
