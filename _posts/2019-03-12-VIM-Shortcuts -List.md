@@ -4,7 +4,7 @@ title: "VIM Cheat Sheet - Condensed"
 ---
 |Command|Result|
 |---    |---    |
-|Reformat code  <td colspan=2>|
+|<td colspan=2>Reformat code|
 |gg=G| gg goes to the top of the file, = is a command to fix the indentation and G tells it to perform the operation to the end of the file.|
 |Pipes|
 |---    |---    |
