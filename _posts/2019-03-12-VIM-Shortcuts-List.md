@@ -7,8 +7,9 @@ title: "VIM Cheat Sheet - Condensed"
 |File Navigation|
 |---|---|
 |`'.`|Jump to the last modification line| 
-|```
-`.```|Jump to the last place modified| 
+|.`|Jump to the last place modified| 
+|CTRL-0|Retrace your movements in file in backwards.|
+|CTRL-I|Retrace your movements in file in forwards.|    
 |---|---|
 |Reformat code|
 |---|---|
