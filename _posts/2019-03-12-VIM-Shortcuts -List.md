@@ -4,6 +4,12 @@ title: "VIM Cheat Sheet - Condensed"
 ---
 |Command|Result|
 |---|---|
+|File Navigation|
+|---|---|
+|`'.`|Jump to the last modification line| 
+|```
+`.```|Jump to the last place modified| 
+|---|---|
 |Reformat code|
 |---|---|
 |gg=G| gg goes to the top of the file, = is a command to fix the indentation and G tells it to perform the operation to the end of the file.|
