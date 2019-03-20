@@ -5,7 +5,9 @@ title: "VIM Cheat Sheet"
 
 Awesome Articles that I have found across the web:
 - https://medium.freecodecamp.org/learn-linux-vim-basic-features-19134461ab85
-
+Spell checking wouldn't be very useful if you didn't have any help correcting
+the misspelled words, or a way to tell the program that the word is actually
+correct. Let's start with correcting words.  To move to a misspelled word, use ]s and [s. The ]s command will move the cursor to the next misspelled word, the [s command will move the cursor back through the buffer to previous misspelled words.  Once the cursor is on the word, use z=, and Vim will suggest a list of alternatives that it thinks may be correct. For instance, if I highlight autocompletion and then use z=, I see something like ]  
 # VIM Commands 
 
 I am constantly trying to improve my VIM knowledge. Being an old Linux user I love VIM and have always seen it as real art. Aaaanyway, let's jump right into it:
