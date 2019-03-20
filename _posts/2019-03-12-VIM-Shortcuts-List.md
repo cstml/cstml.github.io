@@ -10,10 +10,19 @@ title: "VIM Cheat Sheet - Condensed"
 |.`|Jump to the last place modified| 
 |CTRL-0|Retrace your movements in file in backwards.|
 |CTRL-I|Retrace your movements in file in forwards.|    
+|
 |---|---|
 |Reformat code|
 |---|---|
 |gg=G| gg goes to the top of the file, = is a command to fix the indentation and G tells it to perform the operation to the end of the file.|
+|---|---|
+|Spellchecker|
+|---|---|
+|:setlocal spell spelllang=en_gb||
+|---|---|
+|Jumps|
+|---|---|
+|CTRL-N||
 |---|---|
 |Pipes|
 |---|---|
