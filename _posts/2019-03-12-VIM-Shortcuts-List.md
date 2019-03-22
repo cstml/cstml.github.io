@@ -7,36 +7,36 @@ title: "VIM Cheat Sheet - Condensed"
 
 |   Command    |    Result  |
 |--------------|------------|
-|:resize 50  |Resize window's height to 50 lines| 
-|:resize +50  |Resize window's height to 50 lines| 
-|:resize +50  |Resize window's height to 50 lines| 
+|:resize 50  |Resize window's height to 50 lines|
+|:resize +50  |Resize window's height to 50 lines|
+|:resize +50  |Resize window's height to 50 lines|
 |:vertical resize 100| Resize window's width to 100|
 
 # Jumping around the file
 
 |   Command    |    Result  |
 |--------------|------------|
-|'.|Jump to the last modification line| 
-|`.|Jump to the last place modified| 
+|'.|Jump to the last modification line|
+|`.|Jump to the last place modified|
 |CTRL-0|Retrace your movements in file in backwards.|
-|CTRL-I|Retrace your movements in file in forwards.|    
+|CTRL-I|Retrace your movements in file in forwards.|
 
 # Moving around the file
 
 |   Command    |    Result  |
 |--------------|------------|
-|CTRL-U|Move up| 
-|CTRL-D|Move down| 
-|CTRL-F|Move forward| 
-|CTRL-B|Move backwards| 
+|CTRL-U|Move up|
+|CTRL-D|Move down|
+|CTRL-F|Move forward|
+|CTRL-B|Move backwards|
 
 # Marks
 
 |   Command    |    Result  |
 |--------------|------------|
-|`ma`          |Places mark a| 
-|'a|    Placese the cursor at `mark a` line| 
-|`a|    Places the cursor at `mark a` marked character| 
+|`ma`          |Places mark a|
+|'a|    Placese the cursor at `mark a` line|
+|`a|    Places the cursor at `mark a` marked character|
 
 
 # Reformat code
@@ -74,3 +74,11 @@ title: "VIM Cheat Sheet - Condensed"
 |---|---|
 |vim -p *.tex|  Opens all the .tex files in sepparate tabs|
 |:saveas | allows one to saveas - does not delete the old file|
+
+# Terminal
+
+| Command            | Result                                 |
+| ------------------ | -------------------------------------- |
+| :terminal          | opens a terminal                       |
+| :vertical terminal | opens a terminal with a vertical split |
+| CTRL+W :quit       | quit the terminal                      |
