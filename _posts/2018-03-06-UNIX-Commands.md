@@ -307,4 +307,14 @@ Basically in this example we are using the output from **ls** to write in **outp
 
 An interesting and useful thing is the difference between **>** and **>>**. If we look carefully when using **>** we will see that the existing contents of the file will be overwritten whilst when using **>>** the contents of the file will be appended to the end of the document.
 
+To write the stderr to a file:
+```
+command 2>file.txt
+```
+
+To write the **stderr** to the stdout
+```
+command 1>output.tx 2>$1
+```
+
 And basically that was it, hope you find it useful!
