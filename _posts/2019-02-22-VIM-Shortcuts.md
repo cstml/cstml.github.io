@@ -1,30 +1,44 @@
 ---
 layout: post
 title: "VIM Cheat Sheet"
+date: 2019.11.23
 ---
 
 Awesome Articles that I have found across the web:
 - https://medium.freecodecamp.org/learn-linux-vim-basic-features-19134461ab85
 Spell checking wouldn't be very useful if you didn't have any help correcting
 the misspelled words, or a way to tell the program that the word is actually
-correct. Let's start with correcting words.  To move to a misspelled word, use ]s and [s. The ]s command will move the cursor to the next misspelled word, the [s command will move the cursor back through the buffer to previous misspelled words.  Once the cursor is on the word, use z=, and Vim will suggest a list of alternatives that it thinks may be correct. For instance, if I highlight autocompletion and then use z=, I see something like ]  
+correct. Let's start with correcting words.  To move to a misspelled word, use
+]s and [s. The ]s command will move the cursor to the next misspelled word, the
+[s command will move the cursor back through the buffer to previous misspelled
+words.  Once the cursor is on the word, use z=, and Vim will suggest a list of
+alternatives that it thinks may be correct. For instance, if I highlight
+autocompletion and then use z=, I see something like ]  
 # VIM Commands 
 
-I am constantly trying to improve my VIM knowledge. Being an old Linux user I love VIM and have always seen it as real art. Aaaanyway, let's jump right into it:
+I am constantly trying to improve my VIM knowledge. Being an old Linux user I
+love VIM and have always seen it as real art. Aaaanyway, let's jump right into
+it:
 
 # VIM favourites
 
 ## Indentation
 to Indent stuff just use ">>" or "<<"
 
-## Browser
-One cool thing about VIM is that it comes with a browser plugin called **netrw**
+To reformat text "gq" is a super useful and fast command.
 
-For a more detailed article on this go to this [link](https://shapeshed.com/vim-netrw/)
+## Browser
+One cool thing about VIM is that it comes with a browser plugin called
+**netrw**
+
+For a more detailed article on this go to this
+[link](https://shapeshed.com/vim-netrw/)
 
 To open this explorer all you have to do is 
 ```
 :Explore
+or
+:E
 ```
 - with `i` you can change the view type
 
@@ -141,5 +155,5 @@ At any point you can use several clipboards inside VIM
 --------------------------------------------
 # Sources: 
 - (https://medium.freecodecamp.org/learn-linux-vim-basic-features-19134461ab85)
-
+- (https://www.cs.swarthmore.edu/oldhelp/vim/completion.html)
 - [http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
