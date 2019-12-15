@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Hi, my name is Vlad and I like programming and maths.
+Hi, my name is Vlad and I like programming and maths. I also like Architecture.
