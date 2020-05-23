@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "VIM Cheat Sheet"
-date: 2019.11.23
-|Updated last:|2020-05-24|
+date: 2019-11-23
+Updated last: 2020-05-24
 ---
 
 Awesome Articles that I have found across the web:
