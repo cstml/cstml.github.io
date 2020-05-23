@@ -168,6 +168,7 @@ At any point you can use several clipboards inside VIM
 | zR         | decreases the foldlevel to zero — all folds will be open |
 | zd         | deletes the fold at the cursor                           |
 | zE         | deletes all folds.                                       |
+| zf         | Create fold on the selection                             |
 | [z         | move to start of open fold                               |
 | ]z         | move to end of open fold                                 |
 
