@@ -5,16 +5,6 @@ date: 2019-11-23
 Updated last: 2020-05-24
 ---
 
-Awesome Articles that I have found across the web:
-- https://medium.freecodecamp.org/learn-linux-vim-basic-features-19134461ab85
-Spell checking wouldn't be very useful if you didn't have any help correcting
-the misspelled words, or a way to tell the program that the word is actually
-correct. Let's start with correcting words.  To move to a misspelled word, use
-]s and [s. The ]s command will move the cursor to the next misspelled word, the
-[s command will move the cursor back through the buffer to previous misspelled
-words.  Once the cursor is on the word, use z=, and Vim will suggest a list of
-alternatives that it thinks may be correct. For instance, if I highlight
-autocompletion and then use z=, I see something like ]  
 # VIM Commands 
 
 I am constantly trying to improve my VIM knowledge. Being an old Linux user I
@@ -174,7 +164,90 @@ At any point you can use several clipboards inside VIM
 | ]z         | move to end of open fold                                 |
 
 --------------------------------------------
-# Sources: 
+
+## Resize split 
+
+|   Command    |    Result  |
+|--------------|------------|
+|:resize 50  |Resize window's height to 50 lines|
+|:resize +50  |Resize window's height to 50 lines|
+|:resize +50  |Resize window's height to 50 lines|
+|:vertical resize 100| Resize window's width to 100|
+
+# Jumping around the file
+
+|   Command    |    Result  |
+|--------------|------------|
+|'.|Jump to the last modification line|
+|`.|Jump to the last place modified|
+|CTRL-0|Retrace your movements in file in backwards.|
+|CTRL-I|Retrace your movements in file in forwards.|
+
+# Moving around the file
+
+|   Command    |    Result  |
+|--------------|------------|
+|CTRL-U|Move up|
+|CTRL-D|Move down|
+|CTRL-F|Move forward|
+|CTRL-B|Move backwards|
+
+# Marks
+
+|   Command    |    Result  |
+|--------------|------------|
+|`ma`          |Places mark a|
+|'a|    Placese the cursor at `mark a` line|
+|`a|    Places the cursor at `mark a` marked character|
+
+
+# Reformat code
+
+|   Command    |    Result  |
+|--------------|------------|
+|gg=G| gg goes to the top of the file, = is a command to fix the indentation and G tells it to perform the operation to the end of the file.|
+|wgw|   Applies wrapping on the current line|
+|:set tw=79| Sets the textwidth for wrapping|
+|:set fo-=l| Sets the text to automatically wrap|
+|:set tw=0| Stops the automatic wrapping|
+
+# Spellchecker
+
+|   Command    |    Result  |
+|--------------|------------|
+|:setlocal spell spelllang=en_gb|sets the language of the local buffer to GB English|
+|:set spell spelllang=en_gb|sets the language of the local buffer to GB English|
+|z=|    suggest a list of alternatives|
+|]s|move the cursor to the next misspelled word|
+|s[|move the cursor to the next misspelled word|
+
+
+# Pipes
+
+|   Command    |    Result  |
+|--------------|------------|
+|:r !ls |    Output From !ls is written into the text|
+|---|---|
+
+# File Opening\Closing
+
+|   Command    |    Result  |
+|--------------|------------|
+|---|---|
+|vim -p *.tex|  Opens all the .tex files in sepparate tabs|
+|:saveas | allows one to saveas - does not delete the old file|
+
+# Terminal
+
+| Command            | Result                                 |
+| ------------------ | -------------------------------------- |
+| :terminal          | opens a terminal                       |
+| :vertical terminal | opens a terminal with a vertical split |
+| CTRL+W :quit       | quit the terminal                      |
+
+--------------------------------------------
+
+# Some further reading: 
 - (https://medium.freecodecamp.org/learn-linux-vim-basic-features-19134461ab85)
 - (https://www.cs.swarthmore.edu/oldhelp/vim/completion.html)
 - [http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html)
