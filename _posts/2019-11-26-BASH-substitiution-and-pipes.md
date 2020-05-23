@@ -3,11 +3,11 @@ layout: post
 title: UNIX comand sequencing and cd ps tips 
 ---
 
-#Sequencing
+# Sequencing
 
 Sequencing allows the user to exectue a series of comands one after another
 
-##$(command)
+## $(command)
 
 for comand substitution
 
@@ -28,7 +28,7 @@ will output
 -2
 ```
 
-#Bash range expansion
+# Bash range expansion
 Range expansion works really nice, and is a powerful concept. For example
 
 ```
@@ -39,7 +39,7 @@ outputs
 hello1 hello2 hello3 hello4 hello5 hello6 hello7 hello8 hello9 hello10
 ```
 
-#Piping
+# Piping
 
 Piping allows the user to use the output of one comand as the input of another
 one. 
