@@ -5,6 +5,8 @@ title: "Journey to Dev - Timeline"
 | Updated last:   | 2020-05-24  |
 ---
 # Table of Contents
-0. [Table](#table)
-1. [Navigation](#navigation)
-2. [Reading Files](#reading-files)
+0. [Day 0](#Day 0)
+
+----
+# Day 0
+I have been considering the swap for years now, and if I wait any longer it will be a decade. 
