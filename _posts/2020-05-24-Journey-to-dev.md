@@ -43,13 +43,10 @@ These skills have been gathered over time and a passion for tinkering around. I 
 
 I am not as confident, but I am passionately curious and interested in AI and ML. At the intersection of Mathematics and CS, I have always wanted to work within this realm (more on this, hopefully will be written in the background section at some point). 
 
+### Aims
 Thus:
 1. I will focus my educational efforts going forward into developing a good understanding of AI/ML and how to apply it
 2. I will attempt to focus my attention on one pet-project rather than try and start new one after new one
-
-### Learnt
-
-### Discovered
 
 ---
 
@@ -69,6 +66,6 @@ Needless to say, I was pretty hooked by the two subjects and by the time I had t
 #### Why does this matter?
 I guess it doesn't matter much, in the real sense for anyone else except myself. I am completely out of my comfort zone writing about this on the internet, as I consider myself quite an intreverted person, and certainly suffer from the "spectator anxiety". I am trying to use that exposure to "uncomfortable" to keep me posting and moving into the direction of achieving the goal. If you are reading this (as you can tell I am also an *optimist*, thinking that someone else would read this) and it motivates you to follow that one path that you always wanted to, then maybe it's not useless after all. 
 
-*"A journey of a thousand miles begins with a single step"
+*"A journey of a thousand miles begins with a single step"*
 
-Lao Tzu*
+*Lao Tzu*
