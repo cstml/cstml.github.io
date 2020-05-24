@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "Journey to Dev - Timeline"
-Original post: 2020-05-24
-Updated last:2020-05-24
-
+date: 2020-05-24 
 ---
+
+| Last Edited | 2020-05-24 |
+|-------------|------------|
+
 # Table of Contents
 0. [Intro](#Intro)
 1. [Day 0](#Day0)
