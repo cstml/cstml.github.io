@@ -5,6 +5,7 @@ title: "Journey to Dev - Timeline"
 | Updated last:   | 2020-05-24  |
 ---
 # Table of Contents
+0. [Intro](#Intro)
 1. [Day 0](#Day0)
 ----
 # Intro
@@ -18,12 +19,16 @@ Although currently I code and study mathematics in my spare time - with all my a
 ### The format
 I will update this one post throughout the journey striving to write each day, either about what I learnt or what I have done to get closer to achieving my goal. I will take the liberty of editing stuff as I go, and by no measure will this be perfect. But it will be good enough for the aforementioned 
 
+---
+
 # Day 0
 I have been considering the swap for years now, and if I wait any longer it will be a decade. But yesterday I have finally decided that I need to commit and go ahead with it. I am going to pursue landing my first, proper job, within the world of Computer Science and Development.Although passionate about it since childhood, and indeed active in the field both as a past time and "educational entertainment" and with a drive to constantly integrate it into my day job, I have somehow always managed to coward out of actively searhcing for a pure developer job. Call it fear of rejection or, 
 
 To make sure that I am going to commit 99% this time I will keep this blog post going and record my activity. Hopefully it will motivate me, and at the same time, be a good case study for other people that are passionate about CS but are too afraid (as I am) to fully commit. 
 
-### Background
+---
+
+#### Background
 Since childhood I have always been passionate about both computers and mathematics. I grew up in Romania, and personal computers were not easily available. But I was lucky enough that my mother, my aunt and uncle were teachers and their school bought their first computers around 1995, when I was 2. By the age of 4 I was a common occurence in their systems room, playing on the schools **Pentium 486**. Seeing my relentless interest in computers, my mother spoke to the schools computer science teacher and managed to secure me Turbo Pascal tuitions. And this was the beginning of my journey in the world of computers. 
 
 From that point, my interest exploded exponentially and I started to attend our local "Children's Palace". If you are wondering, in the 90's Romania, Children's Palace was a local club where children could go after school and enroll in all sorts of extra-curricular activities - the fee was small if any. And so I was going daily after my classes and spending 3-4 hours attending classes like Informatics (where we would learn turbo Pascal and C), Radio-Amateurs (where we would learn Morse Code transmissions, use it on a Morse Code Paddle and hopefully - take our HAM radio exam - never did that sadly), electronics (where we would create circuits from scratch and toys). I haven't thought about those days much until now, when I sat down to write this post, but it was fantastic!
@@ -34,8 +39,4 @@ The school Olympics are the biggest and most pretigious competition in Romania, 
 
 Needless to say, I was pretty hooked by the two subjects and by the time I had to go to college, there was no other option for me but the Mathematics and Computer Science specialisation. I was fortunate to go to both one of the top colleges in the county, and one of the classes with talented passionate and gifted peers in the country. From a collective of 31 people, we had national and international phase Olympic competitiors in Mathematics, Physics, Computer Science, Modern Romanian. This class was so good at CS that out of 6 places for the city phase of Suceava 5 were my peers, one of which I was lucky enough to be as well. We were also lucky enough to have two of the best CS teachers, one of which was our class's head teacher. Our head teacher was not only passionate about CS and algorithms, she absolutely loved it and was incredible at it! She was a true inspiration for me and my fellow competitors (which were now my friends), and our performance would have never been possible if not her talent and dedication. But again, the competition was fierce!
 
-
-
-From
 (to be continued)
-
