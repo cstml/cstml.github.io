@@ -6,7 +6,7 @@ title: "Journey to Dev - Timeline"
 ---
 # Table of Contents
 0. [Intro](#Intro)
-1. [Day 0](#Day0)
+1. [Day 0](#Day 0)
 ----
 # Intro
 
