@@ -6,15 +6,6 @@ date: 2020-05-24
 
 Last Edited: 2020-05-25
 
-# Table of Contents
-
-- [Intro](#Intro)
-
-- [Day 1](#Day-1)
-
-- [Day 0](#Day-0)
-
-----
 # Intro
 
 ### The goal
@@ -35,6 +26,28 @@ this be perfect and the format will be quite fluid. Within the analysis, I will
 try to be as honest as I can with what I  am thinking and steps I am taking,
 however uncomfortable and *cringy* that makes me feel, in the hope that it will
 be a more authentic case study of the process.
+
+---
+# Day 2
+2020-05-26
+
+Back to my current job today, so I have less time to write these posts. I have used the time after
+work to write my CV, draft out a cover letter and do some job scouting. After reaching out
+to friends that work or have worked in the tech industry I have looked into
+potentially joining a Masters degree - still doing some due diligence on that. Might consider 
+swapping evening working routine to early morning working. 
+
+### Achieved
+1. Did some research into Regressions at lunch, planning to write an article on
+linear regression in the upcoming days
+2. Wrote 80% of my CV
+3. Drafted a rough cover letter, explaining my motivations and whatnot
+
+### Aims
+0. Write the article on Linear Regression
+1. Maintain momentum
+2. Try to sketch out a schedulle to achieve progress in the morning, prior to starting my day job
+3. Do not get discouraged
 
 ---
 # Day 1
