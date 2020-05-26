@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Journey to Dev - Timeline"
+title: "(hopeful) Journey to Dev - Timeline"
 date: 2020-05-24 
 ---
 
@@ -51,7 +51,7 @@ out to apply for jobs. I am hoping by the end of day 7 to at least send one out.
 
 ### Achieved
 1. First mathematical and theoretical post on the blog
-   [Bayes Theorem Post Link](www.cstml.github.io/bayes-theorem)
+   [Bayes Theorem Post Link](https://cstml.github.io/mathematics/2020/05/24/Bayes-Theorem.html)
 2. A good understanding of Bayes Theorem
 3. Surfaced KTC
 
