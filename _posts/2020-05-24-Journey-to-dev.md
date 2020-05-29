@@ -28,6 +28,31 @@ however uncomfortable and *cringy* that makes me feel, in the hope that it will
 be a more authentic case study of the process.
 
 ---
+# Day 5
+2020-05-29
+
+It is official, the first application has gone out. After scouting for a
+place, I have found a company in London, that is incredibly close to what I
+would love doing and working in. Hopefully they will be as excited about me
+working there as I am about myself working there.
+
+The interesting thing about it is that they had a challenge on their website,
+that after I solved it gave me a reference code. This got me even more excited
+about the prospect of working in such a place. I will keep the name of the
+company private for now, but wish me good luck and fingers crossed. 
+
+
+#### Achieved
+- Managed to pull together the CV
+- Managed to get the first application out the door
+- Started a twitter, for small updates and to follow people with a common
+  interest
+
+#### Small note
+It is quiet riveting, applying for jobs. It took a lot of courage and
+commitment to press that send button. I feel a lot better now.
+
+---
 # Day 2
 2020-05-26
 
