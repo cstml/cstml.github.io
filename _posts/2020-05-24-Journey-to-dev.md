@@ -39,8 +39,8 @@ working there as I am about myself working there.
 The interesting thing about it is that they had a challenge on their website,
 that after I solved it gave me a reference code. This got me even more excited
 about the prospect of working in such a place. I will keep the name of the
-company private for now, but wish me good luck and fingers crossed. 
-
+company private for now, but wish me good luck and fingers crossed. It was trimenduous fun, 
+and makes the process a lot more engaging than simply trawling the web for jobs.
 
 #### Achieved
 - Managed to pull together the CV
@@ -51,6 +51,45 @@ company private for now, but wish me good luck and fingers crossed.
 #### Small note
 It is quiet riveting, applying for jobs. It took a lot of courage and
 commitment to press that send button. I feel a lot better now.
+
+#### Newly found interest and possible project for the weekend
+A few ideas have popped up today, and I have gathered some momentum 
+yet again that could take me off my path. I have been trying to learn and
+understand how a framework like Django works, then I started trying to write
+my own framework while thinking of enrolling int he LeeCode June Challenge of
+30 days with 30 problems solved. Even as I write this I realise it is a bit much,
+when I already started the Kaggle Challenge, and am looking for jobs while 
+still having a full time job. **SO**, I will try to Keep It Simple and reduce. To be 
+able to do this, I've decided to create a queue, which will work following these rules:
+*(probably a bit like Kanban)*
+
+1. I am not able to start a new project until one is finished from the **working on** queue
+2. No more than **2 working on** projects
+3. I am allowed to look for new stufff, just to satisfy my constant "poking" curiosity, but
+anything more than 20 minutes is no good. Pass 20 minutes add id to the **to look at** queue
+
+That's about it - I will probaly implement it on github projects. As it is quite nifty and easily
+accessible.
+---
+# Day 3-4
+2020-05-27
+2020-05-28
+Spent these days getting in contact with people working in the industry and trying to understand
+(which I would like to thank for taking the time to speak to me) what would be an
+efficient way of proceeding given my strengths and weaknesses. I am now considering 
+potentially returnig to University to do a Master's Degree in CS, to
+a. Give me some extra time to develop a solid project
+b. Give me some extra confidence in the knowledge and a solid base to grow on.
+
+I am considering atm this option, and will keep you posted with how it goes. 
+Given the late time, it might need to be offset to next year, and by then 
+situation might be completely different. I am yet sure about how to proceed, but 
+it is worth keeping in mind. 
+
+I have also singed up for a Makers Meeting in Lodnon in June - a bootcamp session in 
+Ruby. I am using Ruby for this Jekyll website (that you are on) but am not very familliar with the
+Rails framework or with Ruby for that matter. The meeting is next week so that is one more 
+thing to add to my queue. So many things that I want to learn, yet so little time.
 
 ---
 # Day 2
