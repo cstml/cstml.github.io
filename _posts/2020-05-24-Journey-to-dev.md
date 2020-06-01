@@ -28,6 +28,34 @@ however uncomfortable and *cringy* that makes me feel, in the hope that it will
 be a more authentic case study of the process.
 
 ---
+# Day 6-7
+Managed to send out one more application, and started my Imperial College
+London application. I've been busy documenting myself on MongoDB, and started
+their *M001: MongoDB course*.
+
+To manage my learning, and applications I am trying to replicate a *Sprint
+based* system. Now I have a cardboard with tons of sticky notes trying to make
+it to the *finish*. It seems like a good idea for now, and certainly is helping
+with keeping myself on track. 
+
+I am considering doing the 30 days Coding Challenge on Leet Code. I think it
+might be a great idea, will give it a shot.
+
+#### Achieved
+- [x] Wrote my application to Imperial College and managed to gather the
+information required. 
+- [ ] Finalise the Personal Statement (not yet)
+- [x] 2/3 of the M001: MongoDB Basics course done
+
+#### Thoughts
+I am unsure about the right way to go about it. A master's course would 
+probably grow my employability, but so would a job in a company. I am 
+hoping that the applications that I have already sent out will return
+and I will have a better understanding of the curent situation. Ideally
+I would get admitted to Imperial for this year's master's and find 
+an internship in the meantime.
+
+---
 # Day 5
 2020-05-29
 
@@ -61,7 +89,7 @@ my own framework while thinking of enrolling int he LeeCode June Challenge of
 when I already started the Kaggle Challenge, and am looking for jobs while 
 still having a full time job. **SO**, I will try to Keep It Simple and reduce. To be 
 able to do this, I've decided to create a queue, which will work following these rules:
-*(probably a bit like Kanban)*
+~(probably a bit like Kanban)~ (actually a lot more like SCRUM)
 
 1. I am not able to start a new project until one is finished from the **working on** queue
 2. No more than **2 working on** projects
