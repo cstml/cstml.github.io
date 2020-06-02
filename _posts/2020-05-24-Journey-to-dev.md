@@ -33,7 +33,7 @@ be a more authentic case study of the process.
 
 2020-05-01
 
-Today was quite productive, and it also was the first day of my #30daycodechallenge. I'm posting updates on (https://twitter.com/Cstml1) [Twitter]. 
+Today was quite productive, and it also was the first day of my #30daycodechallenge. I'm posting updates on [Twitter](https://twitter.com/Cstml1). 
 
 #### Achieved:
 
@@ -43,7 +43,7 @@ Today was quite productive, and it also was the first day of my #30daycodechalle
 
 - [x] Ready to submit for Imperial College for MSc in Comp Sci.
 
-- [x] Ready to submit for other universities ... I am looking at Bristol, 
+- [x] Ready to submit for other universities  
 
 - [x] Put in some more work towards my M0001:MongoDB certificate :muscle:
 
