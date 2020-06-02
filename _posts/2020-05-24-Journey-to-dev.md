@@ -28,7 +28,37 @@ however uncomfortable and *cringy* that makes me feel, in the hope that it will
 be a more authentic case study of the process.
 
 ---
+
+# Day 8
+
+2020-05-01
+
+Today was quite productive, and it also was the first day of my #30daycodechallenge. I'm posting updates on (https://twitter.com/Cstml1) [Twitter]. 
+
+#### Achieved:
+
+- [x] I have improved my CV and Cover Letter
+
+- [x] First day of #30DayCodeChallenge on LeetCode - first problem done (chose to do it in C++)
+
+- [x] Ready to submit for Imperial College for MSc in Comp Sci.
+
+- [x] Ready to submit for other universities ... I am looking at Bristol, 
+
+- [x] Put in some more work towards my M0001:MongoDB certificate :muscle:
+
+  ​	- on this last one, going through the course has really improved my understanding of querying non-relational databases. It's quite a lot of fun !
+
+#### New
+
+I am interviewing for *Makers Academy* tomorrow, and the interview will take place in **Ruby**. I've been looking over its syntax, and feel like I have a good grasp of the fundamentals. It does feel like the more programming languages you know, the easier it is to swap between them.  We'll see how the 'view goes tomorrow. 
+
+
+
+---
 # Day 6-7
+2020-05-31
+
 Managed to send out one more application, and started my Imperial College
 London application. I've been busy documenting myself on MongoDB, and started
 their *M001: MongoDB course*.
@@ -191,7 +221,7 @@ future.
    KTC)
   - Developed a better understanding of working with the pandas library but
     still need to research fast ways of manipulating the data within
-  
+
 
 ### Current Level
 I feel confident with my understanding level C++/C, and Python for basic and
