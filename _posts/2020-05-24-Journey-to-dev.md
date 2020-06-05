@@ -29,11 +29,39 @@ be a more authentic case study of the process.
 
 ---
 
+# Day 11
+
+2020-05-04
+
+Managed to do two more problems for the Leet Code 
+
+---
+
+# Day 9
+2020-05-02
+
+Interview went seamlessly and I received a spot on the Makers cohort. I have
+been thinking a lot about it and I don't know if it will be a good step at 
+this time. I will keep thinking about it
+
+In other news, the #30DayCodeChallenge is going strong, and the last problem 
+was a 2 liner. It was a very satisfying 5 minute exercise, and it worked on
+the first submission spot on. Although easy, I think keeping at it so good, especially when it comes to confidence. I will try and keep this going for as long as possible.
+
+#### Achieved:
+
+- [x] Passed the Makers Academy Interview in Ruby(!), yes I managed to pick up as much Ruby as I could in 2 days. It was enough to be able to solve all of the problems 
+- [x] Finished the last chapter of M001: MongoDB Basics
+- [x] Day 2 of leetcode 30 day code challenge (chose to do it in C++ this time as well)
+- [x] Sent out another job application - for which I would like to thank my friend Gem for letting me know about
+- [x] Uploaded all the documents for Imp. College Lon.
+
+---
 # Day 8
 
 2020-05-01
 
-Today was quite productive, and it also was the first day of my #30daycodechallenge. I'm posting updates on (https://twitter.com/Cstml1) [Twitter]. 
+Today was quite productive, and it also was the first day of my #30DayCodeChallenge. I'm posting updates on (https://twitter.com/Cstml1) [Twitter]. 
 
 #### Achieved:
 
