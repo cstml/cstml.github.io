@@ -4,7 +4,7 @@ title: "(hopeful) Journey to Dev - Timeline"
 date: 2020-05-24 
 ---
 
-Last Edited: 2020-05-25
+Last Edited: 2020-06-06
 
 # Intro
 
@@ -29,16 +29,37 @@ be a more authentic case study of the process.
 
 ---
 
-# Day 11
+# Day 10-12
 
-2020-05-04
+2020-06-03 - 2020-06-05
 
-Managed to do two more problems for the Leet Code 
+Managed to do two more problems for the Leet Code  challenge - I am now truly hooked and will win that t-shirt! the third day of the challenge took a bit more thinking, and I did it in Python, but the rest have been consistently easy - for more instantaneous updates, please head to my twitter or to my leetcode-practice repo.
+
+In other updates, my first position refusal has also come through, one of the places I have applied to notifying me that they have now made an offer to a person. This actually doesn't bother me, and I much prefer to know that this is the case rather than never even find out if my application was even seen. 
+
+I've also looked into Functional Programming, which sounds like a good idea, although I am not very confident I could apply it at this point. Nevertheless, there are concepts that I did pick up. I've also spent one evening refreshing myself on C++ lists and strings, which was much fun, especially whilst having sum Pizza (yum).
+
+I've been contacted yesterday (2020-05-05) by a  recruiter wanting to discuss the possibility of a job with C++ and Python at the heart of it. The job description seemed amazing, and it got me really excited. I have replied to the recruiter but have yet received a response back. I hope it wasn't a scam, and if it was, I am yet to figure out what they gain out of doing so. Will wait and see.
+
+I am keeping my spirits up, and remaining positive. I am feeling less under pressure compared to last week, and have now changed my mindset. Realising that I was burning out a little bit, I reminded myself that I am doing this because I am truly passionate about programming and solving problems - and thus should enjoy the journey rather than only concentrate on the final goal. It was an important realisation, and it has changed my experience for good.
+
+#### Achieved
+
+- [x] I have further applied for another university  MSc - Bristol
+- [x] Kept at it with the Leetcode Challenge
+- [x] Finalised and gained a certificate in MongoDB - M001: MongoDB Basics; for now I feel quite literate within mongoDB and would recommend the course to anyone who wants to refresh or learn non-relational databases. The course is structured in a fantastic way, the exams are engaging, and it is completely free. A great course that I recommend 
+
+#### To Do
+
+- [ ] Apply for more jobs - I seam to have applied less often and to fewer places; probably because I have been concentrating on learning more and also applying for master's course - I have lost some of my initial inertia when it comes to applying because i feel like it takes a bit of time, and potentially no one fully reads the application. With this being said, it shouldn't demotivate myself from applying.
+- [ ] Finalise or do some more work on my Kaggle Titanic pet project - I know I have set off on this journey planning to work on it, and somehow managed to only work a couple days on it. It is quite challenging to pick it up after a full day of work, as I would like to be able to fully concentrate on it. With this being said, I might change my approach on it, and use Keras to apply some 'quick and dirty' ML to resolve it. Nevertheless, the problem has pushed me to learn and research the Bayes Theorem (do go and read my post about it) and the amount of info learned only from that is priceless. It's all part of the process.
+- [ ] Have a go at learning JavaScript - a project for next week
+- [ ] Apply for a couple more MSc Computer Science courses
 
 ---
 
 # Day 9
-2020-05-02
+2020-06-02
 
 Interview went seamlessly and I received a spot on the Makers cohort. I have
 been thinking a lot about it and I don't know if it will be a good step at 
@@ -59,14 +80,9 @@ the first submission spot on. Although easy, I think keeping at it so good, espe
 ---
 # Day 8
 
-2020-05-01
+2020-06-01
 
-<<<<<<< HEAD
-Today was quite productive, and it also was the first day of my #30DayCodeChallenge. I'm posting updates on (https://twitter.com/Cstml1) [Twitter]. 
-=======
 Today was quite productive, and it also was the first day of my #30daycodechallenge. I'm posting updates on [Twitter](https://twitter.com/Cstml1). 
->>>>>>> ff8ec6c6fa1462d1be08b804edf5282b189f9d53
-
 #### Achieved:
 
 - [x] I have improved my CV and Cover Letter
