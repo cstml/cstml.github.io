@@ -61,7 +61,11 @@ the first submission spot on. Although easy, I think keeping at it so good, espe
 
 2020-05-01
 
+<<<<<<< HEAD
 Today was quite productive, and it also was the first day of my #30DayCodeChallenge. I'm posting updates on (https://twitter.com/Cstml1) [Twitter]. 
+=======
+Today was quite productive, and it also was the first day of my #30daycodechallenge. I'm posting updates on [Twitter](https://twitter.com/Cstml1). 
+>>>>>>> ff8ec6c6fa1462d1be08b804edf5282b189f9d53
 
 #### Achieved:
 
@@ -71,7 +75,7 @@ Today was quite productive, and it also was the first day of my #30DayCodeChalle
 
 - [x] Ready to submit for Imperial College for MSc in Comp Sci.
 
-- [x] Ready to submit for other universities ... I am looking at Bristol, 
+- [x] Ready to submit for other universities  
 
 - [x] Put in some more work towards my M0001:MongoDB certificate :muscle:
 
