@@ -80,3 +80,19 @@ clean:
 
 To have a look at what the above mini program does go to my
 [exercises repo](https://github.com/cstml/leetcode-exercise-library/tree/master/etc/3-make-file-example)
+
+#### Condensed  useful stuff
+
+| automatic variables | look at the example below for more details                   |
+| ------------------- | ------------------------------------------------------------ |
+| $@                  | This means the file that is being generated - the one on the left of the dots |
+| $<                  | First prerequisite - usually the source file                 |
+
+```
+all: library.cpp main.cpp
+
+    $@ evaluates to all - it can also refer to
+    $< evaluates to library.cpp
+    $^ evaluates to library.cpp main.cpp
+```
+
