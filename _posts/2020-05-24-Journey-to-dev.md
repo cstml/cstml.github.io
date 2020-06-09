@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "(hopeful) Journey to Dev - Timeline"
-date: 2020-05-24 
+date: 2020-06-09
+date created: 2020-05-24 
 ---
 
-Last Edited: 2020-06-06
 
 # Intro
 
@@ -28,20 +28,90 @@ however uncomfortable and *cringy* that makes me feel, in the hope that it will
 be a more authentic case study of the process.
 
 ---
+# Days 13-16
+
+2020-06-06 - 2020-06-09
+
+I have been coding on a daily basis, mostly C++. Working with C++ and really 
+diving into the deeper concepts- on which I only touched upon in the past like:
+- memory allocation 
+- polymorphism
+- function pointers
+- templates
+
+By doing so I am enjoying C++ even more.
+
+Regarding job-hunting, I have received a negative response from the company that
+I solved their website's challenge (that's a bit of a shame). I was hoping for 
+at least an interview or a conversation about it. Nevertheless, I should carry
+on applying for other jobs. 
+
+I have started my third university application and I am hoping to finish it by the
+end of today. Leetcode 30 day code challenge is continuing in  the background 
+and if you have been watching me on twitter, you know my trials and
+tribulations. In a nutshell I am still in it, and very busy.
+
+To fill in my gaps regarding web-dev, I have been experimenting with a LAMPS
+server, deployed on an AWS EC2, learning PHP and practicing MySQL. I intend to 
+create a simple website that users can input jokes and see all the jokes
+written by others.
+
+#### Achieved
+- [x] submitted on Kaggle an example worked out through reading other people's 
+notebooks. It was very useful to learn how other people arrive at the results
+and how to implement the algorithms. It was also much easier to find what to
+research in terms of ML algorithms, rather than reading only the documentations.
+Lesson learnt - read other people's code .
+- [x] kept at it with Leetcode and refining my C++ skills
+- [x] maintained motivation and momentum
+
+#### Not achieved
+- [ ] Apply or look for more jobs over the weekend. I will be honest, job searching
+takes a long time, and applying for each job takes even longer. I'd rather code
+or do something else rather than apply for a job sometimes, and with no expression
+of interest from any of the applications sent out (especially the one that I even
+completed their challenge that was meant to make them interested) I have lost some
+of the motivation needed to invest the time in applying. Nevertheless, I am aware that
+this is how job searching works, and should not be discouraged. I will get back to it
+as soon as possible - maybe why not - today.
+
+
+---
 
 # Day 10-12
 
 2020-06-03 - 2020-06-05
 
-Managed to do two more problems for the Leet Code  challenge - I am now truly hooked and will win that t-shirt! the third day of the challenge took a bit more thinking, and I did it in Python, but the rest have been consistently easy - for more instantaneous updates, please head to my twitter or to my leetcode-practice repo.
+Managed to do two more problems for the Leet Code  challenge - I am now truly
+hooked and will win that t-shirt! the third day of the challenge took a bit
+more thinking, and I did it in Python, but the rest have been consistently easy
+- for more instantaneous updates, please head to my twitter or to my
+leetcode-practice repo.
 
-In other updates, my first position refusal has also come through, one of the places I have applied to notifying me that they have now made an offer to a person. This actually doesn't bother me, and I much prefer to know that this is the case rather than never even find out if my application was even seen. 
+In other updates, my first position refusal has also come through, one of the
+places I have applied to notifying me that they have now made an offer to a
+person. This actually doesn't bother me, and I much prefer to know that this is
+the case rather than never even find out if my application was even seen. 
 
-I've also looked into Functional Programming, which sounds like a good idea, although I am not very confident I could apply it at this point. Nevertheless, there are concepts that I did pick up. I've also spent one evening refreshing myself on C++ lists and strings, which was much fun, especially whilst having sum Pizza (yum).
+I've also looked into Functional Programming, which sounds like a good idea,
+although I am not very confident I could apply it at this point. Nevertheless,
+there are concepts that I did pick up. I've also spent one evening refreshing
+myself on C++ lists and strings, which was much fun, especially whilst having
+sum Pizza (yum).
 
-I've been contacted yesterday (2020-05-05) by a  recruiter wanting to discuss the possibility of a job with C++ and Python at the heart of it. The job description seemed amazing, and it got me really excited. I have replied to the recruiter but have yet received a response back. I hope it wasn't a scam, and if it was, I am yet to figure out what they gain out of doing so. Will wait and see.
+I've been contacted yesterday (2020-05-05) by a  recruiter wanting to discuss
+the possibility of a job with C++ and Python at the heart of it. The job
+description seemed amazing, and it got me really excited. I have replied to the
+recruiter but have yet received a response back. I hope it wasn't a scam, and
+if it was, I am yet to figure out what they gain out of doing so. Will wait and
+    see.
 
-I am keeping my spirits up, and remaining positive. I am feeling less under pressure compared to last week, and have now changed my mindset. Realising that I was burning out a little bit, I reminded myself that I am doing this because I am truly passionate about programming and solving problems - and thus should enjoy the journey rather than only concentrate on the final goal. It was an important realisation, and it has changed my experience for good.
+I am keeping my spirits up, and remaining positive. I am feeling less under
+pressure compared to last week, and have now changed my mindset. Realising that
+I was burning out a little bit, I reminded myself that I am doing this because
+I am truly passionate about programming and solving problems - and thus should
+enjoy the journey rather than only concentrate on the final goal. It was an
+important realisation, and it has changed my experience for good.
 
 #### Achieved
 
