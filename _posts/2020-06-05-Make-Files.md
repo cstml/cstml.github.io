@@ -81,6 +81,16 @@ clean:
 To have a look at what the above mini program does go to my
 [exercises repo](https://github.com/cstml/leetcode-exercise-library/tree/master/etc/3-make-file-example)
 
+#### Wildcard rules
+
+If you want to define a rule that is applied to all .foo files when compiled 
+
+```
+%.o: %.foo
+    fooc $(FOOFLAGS) -o $@ -c $<
+```
+
+
 #### Condensed  useful stuff
 
 | automatic variables | look at the example below for more details                   |
@@ -96,3 +106,5 @@ all: library.cpp main.cpp
     $^ evaluates to library.cpp main.cpp
 ```
 
+### Further resources
+- http://nuclear.mutantstargoat.com/articles/make/
