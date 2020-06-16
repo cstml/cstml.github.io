@@ -28,6 +28,23 @@ however uncomfortable and *cringy* that makes me feel, in the hope that it will
 be a more authentic case study of the process.
 
 ---
+# Days 14-20
+2020-06-10 - 2020-06-16
+
+Carry on programming every day, and mostly C++. Leetcode 30 day coding challenge has had some more challenging problems. I've started developing some of my own libraries to use in the solving of the leetcode problems. 
+
+I've stopped applying for jobs, as I have been too busy to do it properly. I am focusing on applying to two more universities and carrying on studying in my spare time. None of the sent applications have come back, and the recruiter that was offering me a potential job in Berlin has "ghosted" me, after advertising a potential interview code test. 
+
+### Achieved
+
+- [x] Day 15 out of 30 of Daily Code Challenge on Leetcode and going strong
+- [x] I have managed to secure one academic referral for my  MSc
+
+### Not Achieved
+
+- [ ] Applying for more jobs
+
+---
 # Days 13-16
 
 2020-06-06 - 2020-06-09
@@ -74,7 +91,6 @@ completed their challenge that was meant to make them interested) I have lost so
 of the motivation needed to invest the time in applying. Nevertheless, I am aware that
 this is how job searching works, and should not be discouraged. I will get back to it
 as soon as possible - maybe why not - today.
-
 
 ---
 
