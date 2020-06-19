@@ -45,4 +45,9 @@ not to. Maybe only if you are working by yourself.
 - Pretty simple, keep the ```.gitignore``` up to date and up to scratch
 - Commit files you have manually made
 
-This was inspired by [this website](https://deepsource.io/blog/git-best-practices/)
+# Further research and links
+
+- This was inspired by [this website](https://deepsource.io/blog/git-best-practices/)
+- [Fantastic lecture with very clear explanation](https://missing.csail.mit.edu/2020/version-control/)
+
+- [Pro Git](https://git-scm.com/book/en/v2)
