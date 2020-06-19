@@ -28,12 +28,34 @@ however uncomfortable and *cringy* that makes me feel, in the hope that it will
 be a more authentic case study of the process.
 
 ---
+
+# Day 23
+
+2020-06-19
+
+I am busy busy busy busy busy.
+
+### Achieved 
+
+- [x] leetcode problems
+- [x] started work on a clone of asteroids game
+  - [x] managed to find a simple and fast multimedia library to work with that I find intuitive it is called SFML (Simple Fast Multimedia Library)  ... I love it
+  - [x] I am developing the game without the use of any tutorial or guide - just with the use of the reference, CTags and VIM. It is **very** rewarding
+- [x] Managed to find a second academic reference for my master's  course  - one of the referees has actually submitted their reference as well
+
+### Not Achieved
+
+- [ ] Have any sort of free time to write this post
+
+
+
+---
 # Days 14-20
 2020-06-10 - 2020-06-16
 
 Carry on programming every day, and mostly C++. Leetcode 30 day coding challenge has had some more challenging problems. I've started developing some of my own libraries to use in the solving of the leetcode problems. 
 
-I've stopped applying for jobs, as I have been too busy to do it properly. I am focusing on applying to two more universities and carrying on studying in my spare time. None of the sent applications have come back, and the recruiter that was offering me a potential job in Berlin has "ghosted" me, after advertising a potential interview code test. 
+I've stopped applying for jobs, as I have been too busy to do it properly. I am focusing on applying to two more universities and carrying on studying in my spare time. ~~None of the sent applications have come back, and the recruiter that was offering me a potential job has "ghosted" me~~ (Updated: spoke a bit too soon, the job has actually come back and I have a code challenge lined up for Saturday, I am super excited about this, as it is an incredible opportunity in a fantastic office working with what I love the most - C++). 
 
 ### Achieved
 
