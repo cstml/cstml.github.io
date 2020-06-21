@@ -101,7 +101,7 @@ If you want to define a rule that is applied to all .foo files when compiled
 ```
 all: library.cpp main.cpp
 
-    $@ evaluates to all - it can also refer to
+    $@ evaluates to all 
     $< evaluates to library.cpp
     $^ evaluates to library.cpp main.cpp
 ```
