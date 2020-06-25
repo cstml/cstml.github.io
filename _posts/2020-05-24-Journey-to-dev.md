@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "(hopeful) Journey to Dev - Timeline"
-date: 2020-06-09
+date: 2020-05-24
 date created: 2020-05-24 
 ---
 
@@ -28,6 +28,30 @@ however uncomfortable and *cringy* that makes me feel, in the hope that it will
 be a more authentic case study of the process.
 
 ---
+
+# 26 Jun 2020
+
+**Day ?**
+
+*Yes, I know, I've lost count of the days and also I am too tired to count them*
+
+Had my first second phone interview. It all went well.
+
+I have now also finished my second technical interview. Still waiting on two more universities to respond as well. One way or another, I have managed recorded significant gains in programming skills since the start of this process. It has been fun.
+
+Thus I am carrying on.
+
+### Achieved
+
+- [x] maintained momentum
+- [x] Phone interviews
+- [x] two code challenges
+
+### Not achieved
+
+- [x] Find a job in C++
+
+
 
 # Day 23
 
