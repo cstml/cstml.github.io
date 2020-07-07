@@ -4,6 +4,8 @@ date: 2020-05-30
 layout: post
 ---
 
+# Git Good Practice
+
 Preparing my GitHub for other people to see, and after having a look at
 it through other people's eyes - let me tell you - it's quite messy.
 

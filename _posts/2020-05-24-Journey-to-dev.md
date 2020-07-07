@@ -29,6 +29,48 @@ be a more authentic case study of the process.
 
 ---
 
+# 7 Jul 2020
+
+A family related event has slowed down my job search progress, and for a few days I did not manage to do much coding. I've been experimenting prior to this with:
+
+- Web Stuff 
+  - PHP
+    - Laravel
+  - Jekyll
+  - mySQL
+- C++
+  - OpenGL
+
+### Achieved:
+
+- [x]  finished the 30 day coding challenge on leetcode, succesfully completing each day.
+- [x] Createad a simple **PHP** twitter clone - mostly the backend will work a bit more on this at some point
+- [x] One step closer to going to Uni
+
+###  Salesforce Job:
+
+It's worth discussing my interview for a Sales Force developer. A couple weeks ago after applying to several jobs, I received a phone call from a Sales Force job advert. This transformed into an interview. 
+
+Following the intial phone-call I had another interview, which then qualified me for a coding test. Funny thing with it, the lady I was talking to said: 
+
+"*Don't worry it's really easy. You can do it after work, and I'll make it so you have 90 minutes*"
+
+So I thought, OK, that's a piece of cake then especially since I chose to do it in Python with which I am fairly comfortable. So I started the test at 22:00, thinking it will be a chill activity to do in the evening. **Big mistake!** It was both hard and easy, but some of the questions required intense and fast thinking and some were super technical with very grey zone answers. To add to all of this, I only had 60 minutes. It was intense, and by the end of it I was *cream crackered* . I sent the lady an email that I completed it and went to bed. I was so tired I could not even remeber what I had done.
+
+The next day, lady calls me: 
+
+"*Hi Vlad, how do you think you did?*"
+
+I had no clue, but was hoping to have at least passed. To my surprise she let me know that I achieved something la 71% correctness on the test and I was the fourth out of a cohort of more than 30 people. She then offered me the next interview in a few days time (this was meant to be the before last one). I was quite excited and prepared for it. 
+
+On the day, she called to let me know that due to COVID-19 they were no longer looking for a sales-force developer and that once this situation changes she will get in contact with me to see my availability and continue the interview process. 
+
+#### Lesson learnt 
+
+- covid-19 is starting to show its claws
+
+Nevertheless, the story and this post will carry on.
+
 # 26 Jun 2020
 
 **Day ?**
@@ -70,7 +112,6 @@ I am busy busy busy busy busy.
 ### Not Achieved
 
 - [ ] Have any sort of free time to write this post
-
 
 
 ---
