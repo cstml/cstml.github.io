@@ -29,6 +29,12 @@ be a more authentic case study of the process.
 
 ---
 
+# 10 Jul 2020
+
+I have 2 weeks left to confirm my attendance of university. Bristol is the main choice. LinkedIN seems to be flodded with developers searching for a job. COVID is showing its teeth. Times are a bit sketchy, and worrying.
+
+I've been oscillating between worrying and thinking too far ahead these days. It seems as though I am caught in indecision. My gut feeling is that I should commit to it, and figure it out as I go. Probably what I should do. One thing is sure: there is no clear path. 
+
 # 7 Jul 2020
 
 A family related event has slowed down my job search progress, and for a few days I did not manage to do much coding. I've been experimenting prior to this with:
