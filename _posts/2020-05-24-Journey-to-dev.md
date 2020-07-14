@@ -29,6 +29,12 @@ be a more authentic case study of the process.
 
 ---
 
+# 14 Jul 2020
+
+Not much progress has been made since the last post. I hae been climbing and spending some time with my family after the unfortunate event. 
+
+Furtermore, I am having last minute doubts about the Masters programme due to CoVID 19. Planning in these times seems a lot more complicated than I wanted it to be. 
+
 # 10 Jul 2020
 
 I have 2 weeks left to confirm my attendance of university. Bristol is the main choice. LinkedIN seems to be flodded with developers searching for a job. COVID is showing its teeth. Times are a bit sketchy, and worrying.
