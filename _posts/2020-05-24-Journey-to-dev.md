@@ -28,12 +28,25 @@ however uncomfortable and *cringy* that makes me feel, in the hope that it will
 be a more authentic case study of the process.
 
 ---
+# 22 Jul 2020
+
+I have just accepted my offer to study at Bristol. I have been pondering it for
+a while now. It feels exciting, yet a bit scary. In any case we shall see where
+this takes me.
+
+I have yet to discuss with my current work about it.
+
+It does feel a lot less monumental than one would think such a decision would
+be, maybe due to the fact that it has been in the making for a while.
 
 # 14 Jul 2020
 
-Not much progress has been made since the last post. I hae been climbing and spending some time with my family after the unfortunate event. 
+Not much progress has been made since the last post. I hae been climbing and
+spending some time with my family after the unfortunate event. 
 
-Furtermore, I am having last minute doubts about the Masters programme due to CoVID 19. Planning in these times seems a lot more complicated than I wanted it to be. 
+Furtermore, I am having last minute doubts about the Masters programme due to
+CoVID 19. Planning in these times seems a lot more complicated than I wanted it
+to be. 
 
 # 10 Jul 2020
 
