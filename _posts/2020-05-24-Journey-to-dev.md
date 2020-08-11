@@ -28,6 +28,13 @@ however uncomfortable and *cringy* that makes me feel, in the hope that it will
 be a more authentic case study of the process.
 
 ---
+# 11 Aug 2020
+After being accepted at both Bristol and Bath, I have taken the decision to
+change my choice to Bath. Offering a course with more choice and a lower price
+point, I decided it would be a better overal path. If finance was not an issue
+I would have probably remained with Bristol, but with a difference of £6.5k 
+Bath seemed the logical choice for me. 
+
 # 22 Jul 2020
 
 I have just accepted my offer to study at Bristol. I have been pondering it for
