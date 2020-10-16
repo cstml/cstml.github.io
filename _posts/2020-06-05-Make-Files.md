@@ -2,6 +2,7 @@
 layout: post
 title: Makefiles
 date: 2020-06-06
+edited: 2020-10-16
 tags: C++, Linux
 ---
 # Makefiles
@@ -100,6 +101,7 @@ If you want to define a rule that is applied to all .foo files when compiled
 | `$^`                                    | All the prerequisites                                        |
 | `$(wildcard *.cpp)`                     | will load all the `*.c` files                                |
 | `$(patsubst %.c,%.o,$(wildcard *.cpp))` | Will substitute all the `*.cpp` into `*.o`. Note the use of % to denote EACH |
+| `$(shell pwd)`			  | Exectues the shell comnmand					|
 
 ```
 all: library.cpp main.cpp
