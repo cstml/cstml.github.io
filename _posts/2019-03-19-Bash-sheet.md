@@ -1,7 +1,8 @@
----
 layout: post
-title: "Bash Cheat Sheet"
+title: "bash: Bash Cheat Sheet"
+
 ---
+
 |Command|Result|
 |---    |---    |
 |fg | resume the latest suspended process |

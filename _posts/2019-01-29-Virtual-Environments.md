@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Virtual Environments"
+title:  "python: virtual Environments"
 date:   2019-01-29 00:00:00 +0000
 updated: 2020-05-30
 categories: python

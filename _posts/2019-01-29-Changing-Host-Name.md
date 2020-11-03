@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Changing MAC hostnames"
+title:  "system: changing MAC hostnames"
 date:   2019-01-29 00:00:00 +0000
 categories: python
 tags: Python Educational WIP

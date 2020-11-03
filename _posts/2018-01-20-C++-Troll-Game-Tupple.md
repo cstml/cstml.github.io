@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Beware Trolls (also zombies)!"
+title:  "project:Beware Trolls (also zombies)!"
 date:   2018-02-20 20:41:12 +0000
 categories: python
 tags: Python Educational WIP

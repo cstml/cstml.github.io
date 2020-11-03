@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "C++ Ternary Opperators"
+title: "c++: Ternary Opperators"
 ---
 # Ternary Opperator
 Whilst workin on LeetCode I came across this concept which made the whole process a lot more efficient and streamlined.

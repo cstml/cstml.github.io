@@ -1,6 +1,6 @@
 ---
 layout: post
-title: UNIX comand sequencing and cd ps tips 
+title: "bash: UNIX comand sequencing and cd ps tips"
 ---
 
 # Sequencing

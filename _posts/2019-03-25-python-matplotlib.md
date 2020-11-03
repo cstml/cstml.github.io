@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python matplotlib.pyplot"
+title: "python: matplotlib.pyplot"
 ---
 ## Good resources
 [matplolib Pyplot Tutorial](https://matplotlib.org/users/pyplot_tutorial.html)

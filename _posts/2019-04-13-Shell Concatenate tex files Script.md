@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Shell Concatenate tex files Script
+title: "bash: Concatenate tex files Script - a project"
 ---
 
 
@@ -12,7 +12,7 @@ But due to the complexity of the filestructure and to my need to look over the
 whole of the filetree, I found myself in great dificulty when it came to
 creating a merged file of all the subfiles that I couldd see in 1 place.
 
-This is the solution I found
+This is the solution I found, broken down into steps.
 
 # Latex File Structure
 
@@ -96,7 +96,9 @@ tree
 
 
 As you can tell, I have many, subfiles spread around many folders.
-To add to the whole complexity, when Latex compiles my  source code, the files have their own order which is not alphabetical, but structured. We can see this by looking at the file called **Structure.tex**
+To add to the whole complexity, when Latex compiles my  source code, the files
+have their own order which is not alphabetical, but structured. We can see this
+by looking at the file called **Structure.tex**
 
 
 ```bash
@@ -116,7 +118,8 @@ tail Structure.tex
 \subfile {sections/summary/Title.tex}
 ```
 
-But once you see this nicely laid out **Strucure.tex** file, you can see opportunity. Thus here is the strategy that I came up with :
+But once you see this nicely laid out **Strucure.tex** file, you can see
+opportunity. Thus here is the strategy that I came up with :
 
 ## Strategy
 
@@ -124,7 +127,7 @@ But once you see this nicely laid out **Strucure.tex** file, you can see opportu
 2) somehow concatenate all of them in an orderly manner
 3) Output to a unique .txt file
 
-## Step 1
+### Step 1
 
 In order to extract the address of the file I used `awk`, a great unix tool.
 
@@ -202,7 +205,8 @@ sections/summary/Title.tex
 
 ## Step 2
 
-As you can see, the problem now is that the output contains many empty lines. To solve this I used `grep -v` which outputs the file without any 
+As you can see, the problem now is that the output contains many empty lines.
+To solve this I used `grep -v` which outputs the file without any 
 
 `grep -v -e '^$' `
 
@@ -255,7 +259,7 @@ sections/project2/Conclusion.tex
 sections/summary/Title.tex
 ```
 
-## Step 3 
+### Step 3 
 
 We need to take this and save it to an output file: 
 
@@ -269,11 +273,13 @@ We need to take this and save it to an output file:
 
 Now we use `cat` to read the files opened by another `cat` utility. 
 
-> The discovery of nesting `cat`s like this was a real eye opener for me in terms of posibilities
+- The discovery of nesting `cat`s like this was a real eye opener for me in
+  terms of posibilities
 
 ` cat $(cat addresses.tmp) >> united.tex`
 
-And that was it. Now for convenience let's try and create a Shell Script for it.
+And that was it. Now for convenience let's try and create a Shell Script for
+it.
 
 # Shell script version
 

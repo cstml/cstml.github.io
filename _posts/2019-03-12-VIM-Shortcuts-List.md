@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VIM Cheat Sheet - Condensed"
+title: "VIM: VIM Cheat Sheet - Condensed"
 ---
 
 # Resize split 
