@@ -1,4 +1,4 @@
-title:Errors and debugging
+title: "general: Errors and debugging"
 date:29/09/2020
 type:post
 ----
