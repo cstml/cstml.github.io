@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "Terminal Background Processes"
+title: "unix: terminal background processes"
 ---
-
+### How not to do it (maybe)
 Previously, before finding out about this I use to interrupt processes with
 `CTRL-Z`. But as you can guess where this is going: **It is wrong**, or at
-least not the right way to do it. 
+least not the right way to do it.  Why is that?  Have a look further down in the article. 
 
-What is the correct way? Simple, just use `CTRL-C`which halts the process or
+### Good practice
+But what is the correct way? Simple, just use `CTRL-C`which kills the process or
 *Cancels* it.
 
+### Suspending jobs
 But what does `CTRL-Z` do?
 
 It suspends temporarily the process and puts it in the background.

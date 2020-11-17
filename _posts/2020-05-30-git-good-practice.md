@@ -1,8 +1,7 @@
 ---
 layout: post
 title: 'git: Best Practice + some useful commands'
-date: 2020/05/30
-
+date: 2020-05-30
 ---
 
 # Git Good Practice

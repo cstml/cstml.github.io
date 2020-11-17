@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "VIM: VIM Cheat Sheet - Condensed"
+title: "vim: vim Cheat Sheet - Condensed"
+my_variable: footer_company_a.html
 ---
 
 # Resize split 
@@ -17,7 +18,7 @@ title: "VIM: VIM Cheat Sheet - Condensed"
 |   Command    |    Result  |
 |--------------|------------|
 |'.|Jump to the last modification line|
-|`.|Jump to the last place modified|
+|\`.|Jump to the last place modified|
 |CTRL-0|Retrace your movements in file in backwards.|
 |CTRL-I|Retrace your movements in file in forwards.|
 
@@ -34,9 +35,9 @@ title: "VIM: VIM Cheat Sheet - Condensed"
 
 |   Command    |    Result  |
 |--------------|------------|
-|`ma`          |Places mark a|
+|\`ma |Places mark a|
 |'a|    Placese the cursor at `mark a` line|
-|`a|    Places the cursor at `mark a` marked character|
+|\`a|    Places the cursor at `mark a` marked character|
 
 
 # Reformat code
@@ -57,7 +58,7 @@ title: "VIM: VIM Cheat Sheet - Condensed"
 |:set spell spelllang=en_gb|sets the language of the local buffer to GB English|
 |z=|    suggest a list of alternatives|
 |]s|move the cursor to the next misspelled word|
-|s[|move the cursor to the next misspelled word|
+|s\[|move the cursor to the next misspelled word|
 
 
 # Pipes

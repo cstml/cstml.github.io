@@ -1,9 +1,7 @@
 ---
-
 layout: post
 title: "bash: simple bash script to clean a folder"
-updated: "3/11/2020"
-
+updated: 3-11-2020
 ---
 
 A simple example of how to automate a folder cleaner using shell scripting

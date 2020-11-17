@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VIM: VIM Cheat Sheet"
+title: "vim: vim Cheat Sheet"
 date: 2019-11-23
 Updated last: 2020-05-24
 ---

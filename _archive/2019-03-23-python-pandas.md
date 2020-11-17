@@ -12,10 +12,14 @@ frequency for each individual value in column ‘c’ you can do
 df['c'].value_counts() 
 
 There’re some useful tricks / arguments of it: 
+
 A) normalize = True: if you want to check the frequency instead of counts.  
+
 B) dropna = False: if you also want to include missing values in the stats.  
+
 C) sort = False: show the stats sorted by values instead of their counts.  
-D. df['c'].value_counts().reset_index(): if you want to convert the stats table
+
+D) df['c'].value_counts().reset_index(): if you want to convert the stats table
 into a pandas dataframe and manipulate it
 
 # number of missing values

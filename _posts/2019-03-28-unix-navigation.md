@@ -1,46 +1,11 @@
 ---
 layout: post
-title: "bash: Commands Compillation"
+title: 'unix: navigation'
+date: 2019-03-28
+updated: 2020-05-24
 ---
 
-||Date|
-|-|-|
-|Original post:|2019-03-28|
-|Updated last:|2020-05-24|
-
----
-# Table of Contents
-0. [Table](#table)
-1. [Navigation](#navigation)
-2. [Reading Files](#reading-files)
-3. ​
-
----
-
-|Command|Use|
-|   -   |   -  |
-|   cd  | Change Directory |
-|   pwd | Current Directory |
-|   pushd   |   Push current directory into a stack from where you can go back to with popd |
-|   popd    |   Pop the last elem tn of the pushd folder stack |
-|   dirs    |   Displays the popd or pushd stack |
-|   rm  | Remove or delete file |
-|   rm -r | Remove recursively |
-|   watch -n 2 command  |   Executes the command every 2 seconds    |
-|   cat |   Outputs the contents of a file  |
-|   tail    |   Outputs the last lines of a file    |
-|   tail -f |   Tracks and outputs changes to a file    |
-|   awk     |   Great text procesing utility that comes with Linux, I mostly use it for parsing files   |
-|   htop    |   htop is an interactive system-monitor process-viewer and process-manager. It is designed as an alternative to the Unix program top. It shows a frequently updated list of the processes running on a computer, normally ordered by the amount of CPU usage. |
-
-
-
----
-# Navigation 
-
-Quintessential to any programmer is being fluid and able inside the terminal. Although there are loads of people that do not use bash in their daily coding life. Having the knowledge to do so will make anyone's life a lot easier.
-
-# Common UNIX/Bash commands
+Quintessential to any programmer is being fluid and capable inside the terminal. Although there are loads of people that do not use bash in their daily coding life, having the knowledge to do so will make anyone's life a lot easier.
 
 ## pwd
 Prints the filepath of the directory you are currently in
@@ -164,7 +129,7 @@ ls
     output.txt
     output2.txt
 
-
+# Creating/Manipulating Files 
 ## mkdir 
 
 Creates a new folder in the current folder or the a specified place
@@ -283,14 +248,13 @@ sort -r input.txt
     How Are you Today?
     Hello World!
 
-
-# How to use **stdin stdout stderr**
+---
+# stdin stdout stderr
 
 These are the basic input output and error ouputs chanels of UNIX. The best way to see how this works is through a practical example
 
 
 ```bash
-%%bash
 cd /Users/Costumel/Coding/01_Website/cstml_web/Jupyter_Notebook/
 ls
 echo
@@ -307,7 +271,7 @@ cat output2.txt
 rm output2.txt
 rm output.txt
 ```
-
+```txt
     2018-03-06-UNIX-Commands.ipynb
     input.txt
     
@@ -336,7 +300,7 @@ rm output.txt
     2018-03-06-UNIX-Commands.ipynb
     input.txt
     output.txt
-
+```
 
 Basically in this example we are using the output from **ls** to write in **output.txt**. More interestingly we manged to group the two commands by putting them in a paranthesis, which will also group their output into one. 
 
@@ -354,9 +318,12 @@ command 1>output.tx 2>$1
 
 And basically that was it, hope you find it useful!
 
+---
 # Symlinks
+---
 
 Good article on the subject can be found at:
+
 [link](https://medium.com/@meghamohan/hard-link-and-symbolic-link-3cad74e5b5dc)
 
 ## Hardlink
@@ -368,7 +335,6 @@ ln <source> <source>
 ## Symlink
 A symlink is much more like a classical shortcut. 
 In order to create a symlink all you need to do is: 
-
 ```
 ln -s <source> <linkname>
 ```

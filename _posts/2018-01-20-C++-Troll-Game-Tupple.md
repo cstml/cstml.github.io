@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  "project:Beware Trolls (also zombies)!"
-date:   2018-02-20 20:41:12 +0000
+title:  "proj: Beware Trolls (also zombies)!"
+date:   2018-02-20
 categories: python
 tags: Python Educational WIP
 ---
 
 # An intro
 ![Animation showing game][animation]
-
 
 Although at work I currently do a lot of visual coding (Rhino's Grasshopper mostly) and geometry generation, I haven't been coding like I used to for a while now. So to kick some of that sedimented dust that I have accumulated I challenged myself to learn a new coding language. The *almighty* __'Python'__.
 

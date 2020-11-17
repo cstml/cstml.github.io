@@ -3,8 +3,6 @@ layout: post
 title: "bash: Concatenate tex files Script - a project"
 ---
 
-
-
 I am currently writing a case study for a Postgraduate Diploma. I chose to use
 laTEX because I effectively love the formating I get with it and the control. 
 
@@ -281,7 +279,7 @@ Now we use `cat` to read the files opened by another `cat` utility.
 And that was it. Now for convenience let's try and create a Shell Script for
 it.
 
-# Shell script version
+# Final Shell script version
 
 ```
 #!/bin/bash

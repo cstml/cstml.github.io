@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "system: changing MAC hostnames"
-date:   2019-01-29 00:00:00 +0000
+title:  "ops: changing MAC hostnames"
+date:   2019-01-29
 categories: python
 tags: Python Educational WIP
 ---
@@ -10,7 +10,7 @@ tags: Python Educational WIP
 hostname -f
 ```
 # Change Procedure
-[Sourece Link][https://knowledge.autodesk.com/support/smoke/learn-explore/caas/sfdcarticles/sfdcarticles/Setting-the-Mac-hostname-or-computer-name-from-the-terminal.html]
+[Sourece Link](https://knowledge.autodesk.com/support/smoke/learn-explore/caas/sfdcarticles/sfdcarticles/Setting-the-Mac-hostname-or-computer-name-from-the-terminal.html)
 
 Perform the following tasks to change the workstation hostname using the scutil command.
 * Open a terminal.
