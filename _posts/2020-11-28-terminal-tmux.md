@@ -1,7 +1,7 @@
 ---
 theme: post
 date: 28-11-2020
-title: "workflow: my Kattis workflow"
+title: "workflow: Kattis competitive set-up"
 ---
 
 # Competing
@@ -136,7 +136,7 @@ tmux -2 attach-session -d;
 
 And this is how it all looks:
 
-![ ](./imgs/Screenshot-tmux.png)
+![ ](https://raw.githubusercontent.com/cstml/cstml.github.io/master/_posts/imgs/Screenshot-tmux.png)
 
 Hope you liked it and let me know if this was useful for you or if you have any
 tips
