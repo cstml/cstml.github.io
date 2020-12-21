@@ -40,7 +40,7 @@ compact and easier to convert to and from when working with binary.
                       0b  1001 1011 0001  
                     Hex:
                       0x   9   B    1
-``` 
+```
 As you can see from the given example hexadecimal allows us to very fast get
 the representation in binary of the number. How does it do it? 
 1. break the binary number into chunks of 4 digits 
@@ -70,6 +70,25 @@ binary  -> hex  -> decimal
 # Logic operations
 
 ---
+
+### Rightshift and Leftshift move 
+
+Notation `<` or `>`
+
+### Common use:
+
+Halving a number or doubling a number
+
+```text
+ a = 0b101 = 5 
+ a = a << 1
+ a = 0b1010 = 10
+```
+
+
+
+---
+
 
 ### bitwise AND
 
