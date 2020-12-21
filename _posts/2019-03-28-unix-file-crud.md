@@ -85,8 +85,14 @@ rm -d test
     output2.txt
     test
 
+### Tip
+
+If you want to create all the dirs for a path use `mkdir -p` 
+
+
 
 ## mv
+
 Moves a file from one location to another
 *Example:*
 
