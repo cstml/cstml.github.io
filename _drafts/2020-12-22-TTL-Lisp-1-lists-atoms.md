@@ -58,7 +58,8 @@ atom1)`. Let us write a few lists:
   - `(+ 1 (cat dog *mouse*))`   list of symbolic atoms and numerical atoms
   - `()`                        an empty list - without any atoms present 
 
-As we can see  from the above, list
+As we can see  from the above, CLisp lists are very versatile and flexible.
+They are dinimicaly typed  
 
 
 
