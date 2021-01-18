@@ -20,6 +20,8 @@ passionate about mathematics, in general, I find the problem solving
 aspects of programming one of the very satisfying bits about it - nothing
 beats solving an unsolvable problem.
 
+I usually tweet at @cstml
+
 Hope you enjoy your stay here.
 
 V
