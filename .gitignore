@@ -8,3 +8,4 @@ _site
 .obsidian
 .*~
 *~
+.DS_Store
