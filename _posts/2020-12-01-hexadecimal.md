@@ -150,7 +150,14 @@ c = 0b1101
 ### bitwise XOR 
 Notation: `^`
 
-Description: It returns true only if both bits are different from one another
+- Description: It returns true only if both bits are different from one another
+  - `xOR` can also be calculated by doing bit addition modulo 2 
+  - aplying `xor` twice will give you the initial number you started with i.e. 
+
+```text
+a xor b = c
+c xor b = a
+```
 
 Example:
 ```
