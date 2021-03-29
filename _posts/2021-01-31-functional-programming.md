@@ -92,7 +92,7 @@ Python point of view, and these are:
    value of the element and the second a pointer to the next element in the
    list.
    
-## Examples in Python
+## Examples in Python and Haskell
 
 ### 1. Functions
 
@@ -101,6 +101,14 @@ a = lambda x    : x + 1          # returns + 1
 b = lambda x, y : x + y          # returnx x + y
 c = lambda x : lambda y : x + y  # curried version of b 
 ```
+
+
+```haskell
+a = \x       -> x + 1             -- returns + 1
+b = \(x,y)   -> x + y             -- returnx x + y
+c = \x -> \y -> x + y             -- curried version of b 
+```
+
     
 ### 2. Map
 ```python
@@ -110,10 +118,20 @@ b = map (lambda x : X + 1, a) # this will return a map object
 print(list(b))                # so we need to cast it to a list to print
 ```
 
+```haskell
+a = [1,2,3,4]
+b = fmap (\x -> x + 1)        -- this will return a function that takes
+                              -- a foldable item and returns its mapped version
+```
+
 ### 3. Filter
 ```python
 c = filter(lambda x : x % 2, b) # this will filter all eveb numbers
 print(list(c))                 
+```
+
+```haskell
+c = filter (not . odd)         -- this will return all even numbers
 ```
 
 ### 4. Reduce
@@ -121,4 +139,7 @@ print(list(c))
 functools.reduce(lambda x,y : x + y, a , 0) # this will return 10
 functools.reduce(lambda x,y : x + y, a , 2) # this will return 12
 ```
-    
+
+```haskell
+c = foldr1 (+)                 -- recursively fold
+```
