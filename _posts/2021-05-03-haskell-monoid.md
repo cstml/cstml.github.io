@@ -156,7 +156,7 @@ check'''   =  getAny . mconcat . map aTests
     t3     = \x -> Any $ x `mod` 6 == 0
 ```
 
-And now let's transform those tests into sections, as they always look much better
+And now let's transform those tests into sections, as they read nicer:
 
 ```haskell
 check'''' :: [Int] -> Bool
