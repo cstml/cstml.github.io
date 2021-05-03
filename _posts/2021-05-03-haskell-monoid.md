@@ -156,6 +156,20 @@ check'''   =  getAny . mconcat . map aTests
     t3     = \x -> Any $ x `mod` 6 == 0
 ```
 
+And now let's transform those tests into sections, as they always look much better
+
+```haskell
+check'''' :: [Int] -> Bool
+check''''   =  getAny . mconcat . map aTests
+  where
+    aTests = mconcat $ map (getTest . Tester) lstT
+    lstT  :: [(Int -> Any)]
+    lstT   = [t1,t2,t3]
+    t1     = Any . odd 
+    t2     = Any . (==0) . flip mod 4 
+    t3     = Any . (==0) . flip mod 6 
+```
+
 We can extend this type of manipulation to most monoids, and internalising the
 rules and general capabilities are pretty awesome. 
 
