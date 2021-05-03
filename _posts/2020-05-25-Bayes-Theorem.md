@@ -78,7 +78,8 @@ $$
 \\
 W&here:\\ 
 
-the \; probability \; of \; hypothesis \; A \; given \; event \; B \; &equals \; the \; probability \; of \; A \; and \; B \; being \; true \; divided \; by \; the  \;  probability \; of \; B
+the \; probability \; of \; hypothesis \; A \; given \; event \; B \; equals \; the \;
+probability \; of \; A \; and \; B \; being \; true \; divided \; by \; the  \;  probability \; of \; B
 \end{align*}
 $$
 
@@ -231,3 +232,14 @@ $$
 
 So yes, give it a go and use it! I will cut the post to here because it has become quite a long one.
 
+---
+
+# Some further probability identities 
+
+$$
+\begin{align}
+P(\Omega) = 1 \text { where $\Omega$ is the entire sample space } 
+\end{align}
+$$
+
+## Law of total 
