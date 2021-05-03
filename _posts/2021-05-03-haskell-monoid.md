@@ -24,15 +24,18 @@ Say we have a parser that takes a list or stream of numbers and checks if any of
 them are any of the following:
 
 1) odd 
+
 2) divisible by 4 
+
 3) divisible by 6
+
 ... (you can carry on imagining adding rules here)
 
 ### First Solution
 
 The first solution would be pretty straight forward:
 
-```Haskell
+```haskell
 s1 = [2,4,5,7,5,3] -- this one checks
 s2 = [1,1,1,1,1,1] -- this one doesn't
 
@@ -43,7 +46,7 @@ check (x:xs)  =  odd x  || x `mod` 4 == 0 || x 'mod 6 == 0 || check xs
 ``` 
 
 That's all nice and tidy, but say you wanted to add another test, it can be a
-bit annoying to just chain another ` || test x ` to this whole chain. So what
+bit annoying to just chain another `|| test x` to this whole chain. So what
 else can we do?
 
 ### Second Solution
@@ -60,7 +63,7 @@ So in essence we need a way to take a list of `[Int->Bool]` tests and map them
 to `[Int]`, flatten the list, and repeat until we get to the end of the list of
 [Int] or we get `True` after we flatten.
 
-```Haskell
+```haskell
 
 check' :: [Int] -> Bool
 check' []      = False
@@ -75,7 +78,7 @@ check' (x:xs)  = foldl1 (||) ( map ($x) tests) || check' xs
 And realistically, even this form, if we look at the recursivity of check we can
 improve by observing that check is very much a `map`.
 
-```Haskell
+```haskell
 check'' :: [Int] -> Bool
 check'' = foldr1 (||) . map (\x -> foldl1 (||) ( map ($x) tests))
   where
@@ -90,7 +93,7 @@ Haskell allows use to make it nicer by taking that aux function and declaring it
 as such:
 
 
-```Haskell
+```haskell
 check'' :: [Int] -> Bool
 check'' = foldr1 (||) . map aux
   where
@@ -126,7 +129,7 @@ So let's try and get these to work for us.
 
 So let's first define our tests as higher order monoids first:
 
-```Haskell
+```haskell
 newtype Tester a = Tester {getTest :: a -> Any}
 instance Semigroup (Tester a) where
   f1 <> f2 = Tester $ \x -> (getTest f1) x <> (getTest f2) x
@@ -141,7 +144,7 @@ reader). Also by using the Monoid `Any`in the type signature we know we can
 further flatten it. So our function now becomes a lot clearer/cleaner, and
 nicer:
 
-```Haskell
+```haskell
 check''' :: [Int] -> Bool
 check'''   =  getAny . mconcat . map aTests
   where
