@@ -16,8 +16,10 @@ categories:
 
 - Functors are the building blocks of most `typeclasses` in Haskell
 
-- [Have a look here to convince
-  yourself](https://wiki.haskell.org/File:Typeclassopedia-diagram.png)
+  - [Have a look here to convince yourself](https://wiki.haskell.org/File:Typeclassopedia-diagram.png)
+  
+- Functors are (by definition) the *pipes* between categories - you might be
+  ussing them already without realising
 
 ## Use case 
 
@@ -110,7 +112,7 @@ Haskell as I am quite enjoying writing these. The next one will probably be on
 ### More reading 
 
 - [HaskelWiki](https://wiki.haskell.org/Functor)
+- [HaskellForAll Article](https://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
 
 
-Roger out!
 
