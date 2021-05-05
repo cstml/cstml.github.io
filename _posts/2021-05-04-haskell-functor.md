@@ -113,6 +113,4 @@ curious here is some further reading:
 
 - [HaskelWiki](https://wiki.haskell.org/Functor)
 - [HaskellForAll Article](https://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
-
-
-
+- [Haddock](https://hackage.haskell.org/package/base-4.15.0.0/docs/Prelude.html#t:Functor)
