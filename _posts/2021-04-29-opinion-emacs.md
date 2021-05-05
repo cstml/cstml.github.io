@@ -12,6 +12,14 @@ IKR, I've been such an advocate of VIM for a long time, and still use it a lot. 
 Emacs is just ... better. Funny enough I find that I dislike emacs with evil mode as it just messes
 up all the nicety of working with emacs (If I wanted vim I would use VIM is my philosophy). 
 
+# IDE vs text editor
+
+I guess Emacs is ... an IDE - or at least much more so than VIM. I have tried VSCode this year, and 
+it is nice, but it felt detached from how I like to work. It is nice and easy and it has a lot of 
+plugins, but somehow it doesn't feel right for me. Emacs on the other hand, has great plugins, great 
+modes, and just works (well, debatably right? ... kind of just works, like VIM does ... with a lot of 
+tinkering ... and that's probably why I like it).  
+
 After using it for most of my programming work, emacs has changed the way I code, and the way I think
 about my programming ways - for the better. 
 
