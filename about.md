@@ -3,25 +3,18 @@ layout: page
 title: About
 permalink: /about/
 ---
-Hello, my name is Vlad and I like programming and maths. I also like
-Architecture.
 
-The enjoyment I get from coding has been with me since childhood, when at a
-young age, I started going to our local extra-curricular Children's Club.
-Here, you could  choose the courses you wanted to study, and being absolutely
-fascinated with computers I chose to attend the "Informatics" and "Electronics"
-clubs. On a daily basis, I would go and learn Turbo Pascal and play with
-electronics, soldering all sorts of small circuits and contraptions. Some days,
-if we managed to solve all of our problems swiftly, we would get to play
-Warcraft and/or DOOM. Needless to say, this was a magical time that has
-stayed with me.  Even today, every time I manage to make a piece of code
-work, there still is a spark of that excitement present. Furthermore, being
-passionate about mathematics, in general, I find the problem solving
-aspects of programming one of the very satisfying bits about it - nothing
-beats solving an unsolvable problem.
+Hello, and welcome to my perpetually out of sync blog.
 
-I usually tweet at @cstml
+I use this space to put out small snippets of information, without 
+editing it too much. Sometimes I am wrong and I come back and edit
+or remove it - so it is a bit in constant flow. Other times I am wrong
+and am not aware of it (yet). What is sure to say, is that it's all 
+*work in progress*.
 
-Hope you enjoy your stay here.
+I usually tweet at @cstml.
 
-V
+Hope you enjoy your visit, and if you see any mistakes please let me 
+know with a pull request @https://github.com/cstml/cstml.github.io. 
+
+Vlad
