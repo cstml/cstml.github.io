@@ -6,63 +6,48 @@ title: "λ: functional programming"
 
 # Functional Programming
 
+*(edited 2021-05-05)*
+
 In my years of programming, I have developed techniques and ways in which I go
 about resolving problems and tasks. As I was talking to a friend the other day,
-the interesting thing about functional programming is that many of the methods
-of solving things *functionally* were already part of my tool set, without being
-aware that they were a *functional method*. Rather my style evolved to encompass
-them out of personal preference and conceptual ease. The realisation and study
-of *functional programming* hasn't revolutionised the way I code, but rather has
-reinforced specific practices and *reduced* (sic.) others to complete *no go
-status*. To celebrate the fact that I will be studying a module of functional
-programming and lambda calculus as part of my MSc in Computer Science, I set
-out to write this small post. Hopefully as I learn more, I will update it and
-make it reflect more accurately my understandings.
+I realised that the interesting thing about functional programming is that many
+of the methods of solving things *functionally* were already part of my tool
+set, without having the awareness that they were *functional methods*. Rather my
+style evolved to encompass them out of personal preference and conceptual
+ease. 
+
+The realisation and study of *functional programming* has revolutionised the way
+I code, but rather has reinforced specific practices and *reduced* (sic.) others
+to complete *no go status*. To celebrate the fact that I will be studying a
+module of functional programming and lambda calculus as part of my MSc in
+Computer Science, I set out to write this small post. Hopefully as I learn more,
+I will update it and make it reflect more accurately my understandings.
 
 --- 
 
-Personally, the function programming style for me was a breakthrough and a major
-change (for the better) in my mindset about writing code and thinking about
-programming. I now, try and achieve a functional style in every implementation I
-do (as much as possible), independently of language.
+Functional programming was a breakthrough and a major change (for the better) in
+my mindset about writing code and thinking about programming. I now try and
+functional code as much as possible, independently of language.
 
-## Benefits - from experience
 
-1. Functional code tends to be much easier to debug, test and maintain. Not
-   having local states to worry about means that everything acts in a
-   reproducible manner. 
+### Benefits 
 
-2. Each function can be tested individually, and components can be assembled,
-   very much LEGO like. As long as the types match, it will work. This is
-   probably the most appealing bit for myself.
+1. Functions and types can be composed - very much LEGO like. As long as the
+   types match, it will work. This is probably the most appealing bit for
+   myself.
+
+2. Functional code tends to be easier to debug, test and maintain. Not having
+   side effects (mostly) to worry about means that most computation acts in a
+   deterministic manner.
    
-3. Functional code thinks about the big picture. When you manipulate structures
-   rather than iterate and work on individual items, from a personal point of
-   view I find I tend to think in wide brush strokes about how to deliver the
-   wanted result
-
-## Principles of Functional Programming
-
-Without going into the full *spiel* of Functional Programming, there are a few
-things that one should aim to achieve to write code in a functional manner:
-
-1. Treat data and structures as immutable objects - this means do not tamper the
-   data or information inside the scope of a function.
-
-2. Change within the program happens through the use of a function - we use
-   function here in its mathematical sense. A function, in simple terms is just
-   an arrow mapping two elements from two sets. (as a side note, I recommend
-   going through concepts of **Lambda Calculus and Notation**)
-   
-The above statements seem very restrictive at a first glance, but once you get
-the hang of it you will see how powerful these ideas are.
+3. Functional programing allows you to thinks about the big picture as you end
+   up writing what things *should do* rather than *how to do*.
 
 
 ## So how do you do it
 
-Again, keeping it succinct there are simple tools and techniques that allow one
-to make program in a functional way. For now I will talk about them from the
-Python point of view, and these are:
+There are tools and techniques that allow one to make program in a functional
+way.
 
 1. **functions** - in Python functions are first class citizens, so lambda
    notation makes it easy to define them on the go and in place - note that
@@ -71,26 +56,30 @@ Python point of view, and these are:
    have functions defined as lambda functions, but there is no real difference
    between a lambda and a *normal* defined function. So use them as you find
    adequate).
+
+2. **higher order functions** are functions that take a function as one of their
+   parameters. In `Haskell` it is easy to spot them as their type always
+   contains something like `(a->b)`. Some examples:
    
-2. **map** - map does exactly what it says - maps items from one set to another
-   with the use of a function - in practical, simple terms, takes an iterable
-   object ( a vector or a list or etc) and applies a function to each element,
-   returning a new element containing the result of each function application
+  1. **map** - map does exactly what it says - maps items from one set to
+   another with the use of a function - in practical, simple terms, takes an
+   iterable object ( a vector or a list or etc) and applies a function to each
+   element, returning a new element containing the result of each function
+   application
    
-3. **filter** - self describing, filters elements from a set based on a yes no
+  2. **filter** - self describing, filters elements from a set based on a yes no
    function - think of it like a map that either returns the element itself or
    not
    
-4. **reduce** - takes an iterable element and applies a function to it with the
-   purpose of reducing it. The way I think about it is like a map function that
-   works on two elements of the list at a time, with a carry.
+  3. **fold** - takes an iterable element and replaces the type constor with a
+   new function - usually used with the purpose of reducing it. A `sum` fold for
+   exapmle is like a map function that works on two elements of the list at a
+   time, with a carry.
 
-5. **lists** - lists are the main iterable structure used in Functional
-   Programming. Although languages like *Clojure* expands these capabilities to
-   maps and vectors and etc. The list we are talking about is the classic LISP
-   linked list where each element has a *CAR* and a *CDR*. The first being the
-   value of the element and the second a pointer to the next element in the
-   list.
+3. **types** and **type constructors** are what allows us to constrain and
+   define our data. In pure functional programming, the types of functions and
+   objects are the main way of reasoning about what can and cannot be composed,
+   and one of the most important tools in a functional programming toolset. 
    
 ## Examples in Python and Haskell
 
@@ -110,7 +99,11 @@ c = \x -> \y -> x + y             -- curried version of b
 ```
 
     
-### 2. Map
+### 2. Higher order functions
+
+#### a. mapp
+
+python:
 ```python
 a = [1,2,3,4]
 b = map (lambda x : X + 1, a) # this will return a map object
@@ -118,28 +111,37 @@ b = map (lambda x : X + 1, a) # this will return a map object
 print(list(b))                # so we need to cast it to a list to print
 ```
 
+haskell:
 ```haskell
 a = [1,2,3,4]
 b = fmap (\x -> x + 1)        -- this will return a function that takes
                               -- a foldable item and returns its mapped version
 ```
 
-### 3. Filter
+
+#### b. Filter
+
+python:
 ```python
 c = filter(lambda x : x % 2, b) # this will filter all eveb numbers
 print(list(c))                 
 ```
 
+haskell:
 ```haskell
 c = filter (not . odd)         -- this will return all even numbers
 ```
 
-### 4. Reduce
+
+#### c. Fold
+
+python:
 ```python
 functools.reduce(lambda x,y : x + y, a , 0) # this will return 10
 functools.reduce(lambda x,y : x + y, a , 2) # this will return 12
 ```
 
+haskell:
 ```haskell
-c = foldr1 (+)                 -- recursively fold
+c = foldr1 (+)                 -- fold
 ```
