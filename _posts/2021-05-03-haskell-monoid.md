@@ -174,7 +174,9 @@ check''''  =  getAny . mconcat . map aTests
     t3     = Any . (==0) . flip mod 6 
 ```
 
-And as suggested [here](https://twitter.com/BartoszMilewski/status/1390354033559232514) (thank you for the suggestion) we can further neaten it by using the *infix notation*:
+And as suggested [here](https://twitter.com/Cstml1/status/1389326877756739602)
+(thank you for the suggestions) we can further neaten it up by using the *infix
+notation* for `mod` together with partial application:
 
 ```haskell
 check  :: [Int] -> Bool
@@ -184,13 +186,13 @@ check = getAny . mconcat . map aTests
     lstT  :: [(Int -> Any)]
     lstT   = [t1,t2,t3]
     t1     = Any . odd 
-    t2     = Any . (==0) . `mod` 4 
-    t3     = Any . (==0) . `mod` 6 
+    t2     = Any . (==0) . (`mod` 4)
+    t3     = Any . (==0) . (`mod` 6)
 ```
 
 
 We can extend this type of manipulation to most monoids, and internalising the
-rules and general capabilities are pretty awesome. 
+rules and general capabilities can lead to pretty awesome solutions, and applications. 
 
 
 ### Further Reading 
