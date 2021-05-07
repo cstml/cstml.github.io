@@ -41,6 +41,7 @@ instance Functor Identity where
 - What does it do?
 
   - Transforms whatever you give to it into the  `Identity` type.
+  
 
 - What does it need to implement to be a Functor?
 
@@ -72,8 +73,9 @@ fmap (+3) $ Identity 3 -- 6
 ```
 
 - It's like half the map to the left (if that makes sense?). So you give it an
-  element and then you a Functor and then it returns the element wrapped in the
-  functor (a bit like it pushes the element out)
+  element and then you give it a Functor, and it returns the element wrapped in
+  the functor (a bit like *it pushes the element out* of the functor and
+  replaces it).
 
 ```haskell
 5 <$ Identity 6  -- Identity 5
@@ -85,25 +87,28 @@ fmap (+3) $ Identity 3 -- 6
 (+1) <$ Identity 5 -- of the type :: Num a => Identity (a -> a)
 ```
 
-Do you see what happened? We now have a higher order identity - a function
-wrapped in identity. But what can we do with it? Well we can apply it - with
-`fmap` again.
+Do you see what happened? We now have a higher order `Identity` type - a
+function wrapped in `Identity`. But what can we do with it? Well we can apply
+it - with `fmap` again.
 
 ```haskell
 fmap ($5) ((+1) <$ Identity 3) -- Identity 6
 ```
 
-- We basically flipped the roles of the function and application. 
+- We basically flipped the roles of the function and application. And of course
+  `($5)::(a -> b) -> b` is a function that takes a function and it applies
+  to `5`.
 
 - Also, if you `import Data.Functor` you get `$>` (which is as you guessed the
   opposite of `<$` and also `void` which is `:: f a -> f ()`. Pretty straight
   forward.
 
+
 ### In the end
 
 That was it for today. I will try and make an article on each `typeclass` of
 Haskell as I am quite enjoying writing these. The next one will probably be on
-`Applicative Functors`, which you probably know where it leads to. 
+`Applicative Functors`, which you probably know where it leads to.
 
 
 ### More reading 
