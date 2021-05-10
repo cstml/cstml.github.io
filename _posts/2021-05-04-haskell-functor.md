@@ -39,7 +39,6 @@ instance Functor Identity where
   fmap f (Identity m) = Identity $ f m
 ```
 
-----
 
 - TL;DR What does it do?
 
@@ -122,6 +121,7 @@ That was it for today. I will try and make an article on each `typeclass` of
 Haskell as I am quite enjoying writing these. The next one will probably be on
 `Applicative Functors`, which you probably know where it leads to.
 
+----
 
 ### More reading 
 
