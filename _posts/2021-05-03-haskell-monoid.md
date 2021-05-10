@@ -65,7 +65,7 @@ Well, we can make an observation that all the functions:
 
 So in essence we need a way to take a list of `[Int->Bool]` tests, and map them
 to `[Int]`. Then we flatten the list, and repeat until we get to the end of the
-list of [Int] or we get `True` after we flatten.
+list of `[Int]` or we get `True` after we flatten.
 
 ```haskell
 
@@ -93,7 +93,7 @@ check'' = foldr1 (||) . map (\x -> foldl1 (||) ( map ($x) tests))
 ```
 
 Ok, I know what you are thinking, that might not be the nicest section ever, but
-Haskell allows use to make it nicer by taking that aux function and declaring it
+Haskell allows us to make it nicer by taking that `aux` function and declaring it
 as such:
 
 
@@ -110,7 +110,7 @@ check'' = foldr1 (||) . map aux
 
 ### Option 3 
 
-Ok so we've done it in a more flexible way, but where does the **monoid** come
+Ok so we've done it in a more flexible way, but where does the **Monoid** come
 into play. Well if we remember the properties from the introduction and we have
 a look in ghci at the `:info Monoid` we find out a few things. From `Semigroup
 typeclass` we get:
