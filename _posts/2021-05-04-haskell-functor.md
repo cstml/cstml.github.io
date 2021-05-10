@@ -14,7 +14,8 @@ categories:
     
 - Functors are the building blocks of most `typeclasses` in Haskell
 
-  - [Have a look here to convince yourself](https://wiki.haskell.org/File:Typeclassopedia-diagram.png)
+  - If that sounds like a bold claim, 
+    [Have a look here to convince yourself](https://wiki.haskell.org/File:Typeclassopedia-diagram.png)
 
 
 - Functors are (by definition) the *pipes* between categories - you might be
@@ -38,7 +39,9 @@ instance Functor Identity where
   fmap f (Identity m) = Identity $ f m
 ```
 
-- What does it do?
+----
+
+- TL;DR What does it do?
 
   - Transforms whatever you give to it into the  `Identity` type.
   
@@ -49,39 +52,48 @@ instance Functor Identity where
     pretty intuitive this one takes a function from `a -> b` and transforms the
     functor `f a` into a functor `f b`. Easy.
     
+----
+
 - What laws does it need to satisfy?
 
   - it must preserve the identity morphism
   
     - `fmap Id = Id`
   
-  - must preserve composition of morphisms 
+  - it also must preserve composition of morphisms 
    
     - `fmap (f . g) = fmap f . fmap g`
 
-- Example:
+---
+
+- A few examples using our Identity functor:
 
 ```haskell
 fmap (+3) $ Identity 3 -- 6
-(*2)  ($) $ Identity 4 -- 8
+(*2)  <$> $ Identity 4 -- 8
 ```
 
-- Other functions:
+---
+
+- Other functor functions:
 
 ```haskell
 <$ :: a -> f a -> f b
 ```
 
-- It's like half the map to the left (if that makes sense?). So you give it an
-  element and then you give it a Functor, and it returns the element wrapped in
+- It's *half the fmap to the left* (if that makes sense?). You give it an
+  element and then you give it a functor, and it returns the element wrapped in
   the functor (a bit like *it pushes the element out* of the functor and
-  replaces it).
+  replaces it with what is on the left).
 
+- an example:
 ```haskell
 5 <$ Identity 6  -- Identity 5
 ```
 
-- That is quite neat. You can ever use it with higher types for example:
+---
+
+- That is quite neat. You can even use it with higher types for example:
 
 ```haskell
 (+1) <$ Identity 5 -- of the type :: Num a => Identity (a -> a)
@@ -96,11 +108,11 @@ fmap ($5) ((+1) <$ Identity 3) -- Identity 6
 ```
 
 - We basically flipped the roles of the function and application. And of course
-  `($5)::(a -> b) -> b` is a function that takes a function and it applies
+  `($5) :: (a -> b) -> b` is a function that takes a function and it applies
   to `5`.
 
 - Also, if you `import Data.Functor` you get `$>` (which is as you guessed the
-  opposite of `<$` and also `void` which is `:: f a -> f ()`. Pretty straight
+  opposite of `<$`) and `void` which is `:: f a -> f ()`. Pretty straight
   forward.
 
 
@@ -116,6 +128,7 @@ Haskell as I am quite enjoying writing these. The next one will probably be on
 These are all very basic applications and simple examples. But if you are
 curious here is some further reading:
 
+- [Bartosz Milewski's Book is a fantastic resource](https://github.com/hmemcpy/milewski-ctfp-pdf)
 - [HaskelWiki](https://wiki.haskell.org/Functor)
 - [HaskellForAll Article](https://www.haskellforall.com/2012/09/the-functor-design-pattern.html)
 - [Haddock](https://hackage.haskell.org/package/base-4.15.0.0/docs/Prelude.html#t:Functor)
