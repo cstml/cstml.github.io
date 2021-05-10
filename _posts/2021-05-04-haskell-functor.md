@@ -1,7 +1,7 @@
 ---
 theme: post
 date:  03-05-2021
-title: "Haskell: Functor intro"
+title: "Haskell: Functor"
 ---
 
 # Functor
