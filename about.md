@@ -17,4 +17,4 @@ I usually tweet at @cstml.
 Hope you enjoy your visit, and if you see any mistakes please let me 
 know with a pull request @https://github.com/cstml/cstml.github.io. 
 
-Vlad
+Vlad Posmangiu Luchian
