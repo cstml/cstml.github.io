@@ -16,11 +16,12 @@
 title: ~/.cstml
 description: >- # this means to ignore newlines until "baseurl:"
   A blog like a sketchbook to keep track of my ideas, findings, 
-  and learnings.
+  and learnings. Suggestions via PRs [@github](https://github.com/cstml/cstml.github.io/tree/master/_posts)
+  or DM me on twitter.
 baseurl: "" 
 url: "https://cstml.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  cstml
-twitter_username:  Cstml1
+twitter_username: Cstml1
 devpost_username: cstml
 google_analytics: UA-114508123-1
 
