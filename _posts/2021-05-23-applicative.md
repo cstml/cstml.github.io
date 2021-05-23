@@ -1,6 +1,6 @@
 ---
 theme:  post
-date:   13-05-2021
+date:   23-05-2021
 title: "Haskell: Applicative"
 ---
 ## And a bit of Traversable

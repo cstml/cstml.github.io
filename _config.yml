@@ -16,15 +16,14 @@
 title: ~/.cstml
 description: >- # this means to ignore newlines until "baseurl:"
   A blog like a sketchbook to keep track of my ideas, findings, 
-  and learnings. Suggestions via PRs
-  @github
-  or DM me on twitter.
+  and learnings. Suggestions via PRs @github or DM me on twitter.
 baseurl: "" 
-url: "https://cstml.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  cstml
-twitter_username: Cstml1
-devpost_username: cstml
-google_analytics: UA-114508123-1
+url: "https://cstml.github.io" 
+github_username:   cstml
+twitter_username:  Cstml1
+devpost_username:  cstml
+linkedin_username: vladluchian  
+google_analytics:  UA-114508123-1
 
 # Build settings
 markdown: kramdown
@@ -32,3 +31,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-archives
+minima:
+  social_links:
+    
