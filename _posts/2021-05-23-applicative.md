@@ -16,7 +16,7 @@ title: "Haskell: Applicative"
 
 - In Haskell - it is a **Functor** that comes with an operation `<*> :: f (a -> b) -> f a -> f b` that tells it how to **Apply** a higher level `Functor` to another `Functor`. 
 
-- If you remember from the [`Functor`](https://cstml.github.io/2021/05/03/haskell-functor.html) article, we already defined what a `Functor` is and what `fmap` (aka. `<$>`) with the type `(a -> b) -> f a -> f b` do. Comparing them:
+- If you remember from the [`Functor`](https://cstml.github.io/2021/05/03/haskell-functor.html) article, we already defined what a `Functor` is and what `fmap` (aka. `<$>`) does - let's compare them side by side:
 
 ```haskell
 <?> ::   (a -> b) -> f a -> f b
