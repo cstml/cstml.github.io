@@ -261,9 +261,7 @@ sequenceA :: (Traversable t, Applicative f) => t (f a) -> f (t a)
 
 ```haskell
 squishSign :: [Doer a] -> Doer [a]
-squishSign  = sequenceA . (\x -> case x of
-                                   [] -> []
-                                   _  -> x ) 
+squishSign  = sequenceA 
 ```
 
 I wrote it as a section as it reads a bit better - but let's see it in action:
