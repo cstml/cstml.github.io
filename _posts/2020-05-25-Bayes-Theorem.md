@@ -35,13 +35,14 @@ tags: Python Educational WIP
 
 To better define **Bayes Theorem**, one must have a good understanding of what
 all the constituent parts within it. For my own and everyone's benefit I will
-break them down as much as possible. If you see any mistake, please point it
-out to me via GitHub, as I have written these myself in a creative frenzy. 
+break them down as much as possible. If you see any mistake, please point it out
+to me via GitHub, as I have written these myself in a creative frenzy.
 
 # Probability
 
 
-Probability  can be defined as the number of favourable, or true outcomes of a hypothesis in relation to the number of total outcomes. 
+Probability can be defined as the number of favourable, or true outcomes of a
+hypothesis in relation to the number of total outcomes.
 
 $$
 \; P(A)=\frac{cardinal(A=True)}{cardinal(total \; posibilities)}
@@ -59,30 +60,31 @@ $$
 P(Tails)&=\frac{1}{2}\\\\
 &=\frac{50}{100}\\\\
 &=50\%\\\\
-&=1 \; out \; of \; 2\\\\
+&=1 \text{ out  of  } 2\\\\
 &= 1/2
 \end{align*}
 $$
 
-As you can see from the above example, probability can be written in many-a-ways. It is important to remember what it stands for. As basic as it is.
+As you can see from the above example, probability can be written in
+many-a-ways. It is important to remember what it stands for. As basic as it is.
+
+----
 
 # Conditional Probability
 
-Conditional Probability defines the probability of a Hypothesis of being true, based on a second Event happening or hypothesis being true.
+Conditional Probability defines the probability of a Hypothesis being true,
+based on a second event happening - hypothesis being true.
 
 ### Notation:
 
 $$
-\begin{align*}
+\begin{align}
 \;P(A|B)&=\frac{P(A ⋀ B)}{P(B)}\\
-\\
-W&here:\\ 
-
-the \; probability \; of \; hypothesis \; A \; given \; event \; B \; equals \; the \;
-probability \; of \; A \; and \; B \; being \; true \; divided \; by \; the  \;  probability \; of \; B
-\end{align*}
+\end{align}
 $$
 
+Where the probability of hypothesis A given event B equals the probability
+of A and B being *true* divided by the probability of B. 
 
 
 ### Example 1
@@ -134,7 +136,8 @@ P(green|¬white) &= \frac{P(green ⋀¬white)}{P(¬white)} =  \frac{P(green)}{P(
 \end{align*}
 $$
 
-It is interesting to see how through logic the negation is substitute with the element itself!
+
+It is interesting to see how through logic the negation is substitute with the element itself.
 
 
 ### Example 3
@@ -175,8 +178,9 @@ $$
 P(A|B) \neq P(B|A)
 $$
 
+--------
 
-# Bayes Theorem
+# More Bayes Theorem
 
 Bayes Theorem describes mathematically the probability of an event, based on
 prior knowledge of conditions that could be related to the event.
