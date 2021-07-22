@@ -4,7 +4,7 @@ date:   23-05-2021
 title: "Haskell: Applicative"
 ---
 ## And a bit of Traversable
-
+*updated 2021-05-25*
 - [Hackage Applicative Documentation](https://hackage.haskell.org/package/base-4.15.0.0/docs/Control-Applicative.html)
 - [Hackage Traversable Documentation](https://hackage.haskell.org/package/base-4.15.0.0/docs/Data-Traversable.html)
 
@@ -16,7 +16,7 @@ title: "Haskell: Applicative"
 
 - In Haskell - it is a **Functor** that comes with an operation `<*> :: f (a -> b) -> f a -> f b` that tells it how to **Apply** a higher level `Functor` to another `Functor`. 
 
-- If you remember from the [`Functor`](https://cstml.github.io/2021/05/03/haskell-functor.html) article, we already defined what a `Functor` is and what `fmap` (aka. `<$>`) with the type `(a -> b) -> f a -> f b` do. Comparing them:
+- If you remember from the [`Functor`](https://cstml.github.io/2021/05/03/haskell-functor.html) article, we already defined what a `Functor` is and what `fmap` (aka. `<$>`) does - let's compare them side by side:
 
 ```haskell
 <?> ::   (a -> b) -> f a -> f b
@@ -143,22 +143,8 @@ instance Applicative Doer where
 Note: we made use in `(o <> o')` of our previously *discovered* `Monoid` property. The reader (yes, you) can check that the rest of the laws of the `Applicative Functor` stand.
 
 ---
-#### Intermission
-- *Why does this all matter?*
-- It matters because our type `Doer` would not be a very good `Monad` as it wouldn't be able to properly communicate what the `Op` is between binds - due to the fact that `pure` and `return` must be equivalent. So for it to be a useful `Monad` we would have to rethink its type.
 
-```haskell
-instance Monad Doer where
-  return = pure
-  (>>=) (ON o n) f = f n  -- observe how we cannot 
-                          -- control what happens with o
-```
-
-- So `Applicative` functors allow us to work with the structure in exciting ways, without it needing to be a `Monad`
-
----
-
-#### Back to our implementation - Examples
+####  Examples
 
 - OK I'm glad to say that we've covered most of the info regarding `Applicative`, some examples to see it in action would be good.
 
@@ -261,9 +247,7 @@ sequenceA :: (Traversable t, Applicative f) => t (f a) -> f (t a)
 
 ```haskell
 squishSign :: [Doer a] -> Doer [a]
-squishSign  = sequenceA . (\x -> case x of
-                                   [] -> []
-                                   _  -> x ) 
+squishSign  = sequenceA 
 ```
 
 I wrote it as a section as it reads a bit better - but let's see it in action:
