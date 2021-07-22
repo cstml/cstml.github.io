@@ -1,7 +1,7 @@
 ---
 theme: post
 date:  2021-07-22
-title: Haskell: State and StateT Monad basic examples.
+title: "Haskell: State and StateT Monad basic examples."
 ---
 
 # A look at the State Monad and StateT Monad Transformer.
