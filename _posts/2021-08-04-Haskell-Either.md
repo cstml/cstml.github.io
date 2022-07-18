@@ -1,16 +1,20 @@
 ---
 theme: post
 date:  04-08-2021
-title: "Haskell: Applicative - Either."
+title: "Haskell: Either."
 ---
 
 Either
 ------
 
 Either is the `Prelude` provided type that allows us to work with functions that
-might fail. It does this by providing two constructors:
+can return _either one result or another_. It does this by providing two
+constructors:
 
 ```haskell
+
+> -- | remember this as it will come in handy later
+> import Control.Monad (join)
 
 > -- | Ignore the ' as they are there to not clash with the Prelude Either.
 > data Either' e a
@@ -83,7 +87,7 @@ about `either` (which is indeed very similar to `Maybe`'s `maybe`).
 Where the first function will be applied to the `Left` and the second to the
 `Right`.
 
-The Appplicative nature of `Either`
+The Applicative nature of `Either`
 ---
 
 Say we wanted to check if the result is odd. The `Functor` nature of `Either`
@@ -149,7 +153,6 @@ Of course this could also be refactored to
 
 ```
 
-
 Further use of `Either`
 ---
 
@@ -176,7 +179,7 @@ would be again by pattern matching.
 
 But this is a bit weird, because we are repeating ourselves, and we are also
 writing a lot of boilerplate code for something which in essence could be done a
-lot easier. *Here comes Applicative again.*
+lot easier. *Here comes the Applicative again.*
 
 ```haskell
 
@@ -201,7 +204,53 @@ Observe how we had to flatten the result. That's a nifty trick that allows you
 to chain calculations with `Either`. Also observe how we had to lift `z` into an
 `Either` to allow us to `<*>` into the partially applied `division`. (If this
 doesn't make much sense, try and write it from scratch and use the compiler to
-guide you through the above).
+guide you through the above). Interesting thing about this `flat` is that it
+actually is a Monadic property - that is it exists in `Control.Monad` as join -
+and in essence it takes two nested monads and flattens them into
+one. Refactoring:
+
+
+```haskell
+
+> calculate3'' :: IO ()
+> calculate3'' = do
+>     let n = 40
+>     putStrLn $ "Please enter a number to divide " ++ show n ++  " by: "
+>     y <- readLn :: IO Int
+>     putStrLn $ "Please enter a number to divide the result by: "
+>     z <- readLn :: IO Int
+>     either print print $ divide n y z
+>       where
+>         divide :: Int -> Int -> Int -> Either String Int
+>         divide x y z = join $ division <$> (division x y) <*> pure z
+
+```
+
+The Monad Instance
+---
+
+A last thing worth mentioning is that Either is Monadic as well. How do we
+leverage this? Let's look at another example.
+
+```haskell
+
+> calculate5 :: Int -> Either String Int
+> calculate5 n = do
+>     x <- n `divide` 2
+>     x `divide` 2
+>       where 
+>         divide :: Int -> Int  -> Either String Int
+>         divide _ 0 = Left "Can't divide by 0"
+>         divide x y = pure $ div x y 
+
+```
+
+What we're doing here is leveraging do notation to use Either's Monadic
+structure and bind the result of the computation to a temporary `x` which gets
+divided again - all while maintaining the purity of the function. If we were to
+call `calculate5 0` we would get the `Left` instance while any other call would
+return our `Right` result.
+
 
 End
 ----
