@@ -21,7 +21,6 @@ devpost_username:  cstml
 linkedin_username: vladluchian  
 email:             cstmlcodes@gmail.com
 rss:               rss
-google_analytics:  UA-114508123-1
 markdown:          kramdown
 theme:             minima
 plugins:

@@ -9,7 +9,8 @@ With your consent, Google Analytics will process and collect your personal data
 (cookies and IP address) for the above mentioned information. Google Analytics
 will transfer your data to the United States and store it for 26 months. To
 learn more about Google's data transfer policies, click
-[here](https://policies.google.com/privacy/frameworks?hl=en-Uk).
+[here](https://policies.google.com/privacy/frameworks?hl=en-Uk). To see an article about what data is collected by google refer to the following [link](https://www.cookieyes.com/blog/google-analytics-gdpr/).
+
 
 # Manage Cookie Preferences
 
