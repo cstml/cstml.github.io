@@ -1,10 +1,5 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
+
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
@@ -13,23 +8,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: ~/.cstml
+
+title:             ~/.cstml
 description: >- # this means to ignore newlines until "baseurl:"
   A blog like a sketchbook to keep track of my ideas, findings, 
   and learnings. Suggestions via PRs @github or DM me on twitter.
-baseurl: "" 
-url: "https://cstml.github.io" 
+baseurl:           "" 
+url:               https://cstml.github.io 
 github_username:   cstml
 twitter_username:  Cstml1
 devpost_username:  cstml
 linkedin_username: vladluchian  
-
-# Build settings
-markdown: kramdown
-theme: minima
+email:             cstmlcodes@gmail.com
+rss:               rss
+google_analytics:  UA-114508123-1
+markdown:          kramdown
+theme:             minima
 plugins:
   - jekyll-feed
   - jekyll-archives
-minima:
-  social_links:
-    
