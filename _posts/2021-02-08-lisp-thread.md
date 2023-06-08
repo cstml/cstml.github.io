@@ -45,10 +45,10 @@ Or at least **yet** CLisp doesn't, I read somewhere that Clisp 21 does. But,
 let us have a go at implementing it 
 
 ```lisp
-(defmacro ->> (var &rest lst)               ; btw, ->> is a valid name in lisp for either a macro or a function or a variable
-  (if (cdr lst)                             ; if the lists of other operations is not empty
-      `(->> (,@(car lst) ,var) ,@(cdr lst)) ; recursively call the macro 
-      `(     ,@(car lst) ,var)))            ; just expand the macro and be done with it
+(defmacro ->> (var &rest lst)
+  (if (car lst) ; if the lists of remaining operations is not empty
+      `(->> (,@(car lst) ,var) ,@(cdr lst)) ; recursively call the macro
+      `,var)) ; otherwise, return the var.
 ```
 
 So what the above macro is recursively create the call. Let's run through the
