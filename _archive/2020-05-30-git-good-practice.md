@@ -1,27 +1,23 @@
 ---
 layout: post
-title: 'git: Best Practice + some useful commands'
-date: 2020-05-30
+title: "git: Best Practice + some useful commands"
+date:   2020-05-30
 ---
 
 # Git Good Practice
 
-Preparing my GitHub for other people to see, and after having a look at
-it through other people's eyes - let me tell you - it's quite messy.
-
 So, because I like tidy, simple and minimal, let's have a look at a few
-guidelines and conventions that will make your Repo (and mine) look
-and feel better
+guidelines and conventions that will make your Repo (and mine) look and feel
+better
 
 # 1. Keep commits single purpose
+
  - It helps with other people understanding specifically what has changed on
  what commit and when, and why.
  - It is clear for yourself when you changed studd as well and what stuff you
-   changed 
+   changed
 
 # 2. Write meaningful commit messages
-- Very very easily said, but I almost never have done it
-- This is a great system :
 
 ```
 feat: add beta sequence
@@ -34,7 +30,7 @@ feat: add beta sequence
 not only does it give you structure but it is so legible. Genius!
 
 # 3. Commit Early, Commit Often
-- This is one thing I probably overdo. But apparently it is 
+- This is one thing I probably overdo. But apparently it is
 good practice *winning*. In one of my former jobs, the electricity
 used to cut-off randomly, and let me tell, it doesn't take a lot
 of lost work to start impulsive logging.
@@ -47,7 +43,7 @@ not to. Maybe only if you are working by yourself.
 - Pretty simple, keep the ```.gitignore``` up to date and up to scratch
 - Commit files you have manually made
 
-# x. A few commands I use all the time 
+# x. A few commands I use all the time
 
 | Command                          | Utility explanation                                          |
 | -------------------------------- | ------------------------------------------------------------ |
