@@ -17,10 +17,10 @@ Photo by [Robert Linder](https://unsplash.com/@rwlinder?utm_source=medium&utm_me
 
 Hi, this article is the first of a series showing the same domain problem being modelled with different techniques, I will link the following articles here as they get published:
 
--   #1 Scenario & Transformers (you are here)
--   #2 Free (TBC)
--   #3 Freer (TBC)
--   #4 Tagless Final (TBC)
+- [#1 Scenario & Transformers (you are here)](/haskell/2022/11/29/haskell-battle-1.html)
+- #2 Free (TBC)
+- #3 Freer (TBC)
+- #4 Tagless Final (TBC)
 
 #### Intro
 
@@ -58,16 +58,16 @@ import Control.Monad.State
 -- The type of our Programs  
 type Program a = StateT Int IO ()
 
-_-- Adds an Integer to the last result  
-_adds :: Int -> Program ()  
+-- Adds an Integer to the last result  
+adds :: Int -> Program ()  
 adds x = modify (x +)
 
-_-- Subtracts an Integer to the last result  
-_subtracts :: Int -> Program ()  
+-- Subtracts an Integer to the last result  
+subtracts :: Int -> Program ()  
 subtracts x = modify $ flip (-) x
 
-_-- Prints the result in the best marketed way possible  
-_printsResult :: Program ()  
+-- Prints the result in the best marketed way possible  
+printsResult :: Program ()  
 printsResult = get >>= \r -> liftIO $ putStrLn ("BC> " <> show r)
 
 -- This is how easy it is to write Programs for BC  
@@ -87,21 +87,26 @@ You’ve done it (colleagues admire your cunning). Now you can share with manage
 runProgram :: Program a -> IO a  
 runProgram = flip evalStateT 0
 ```
+
 Equipped with **runProgram** and **exampleProgram**, every one spends endless hours of fun writing (and nicely printing) computations that they never even imagined. Like so:
+
 ```haskell
 λ> runProgram exampleProgram  
 BC> 5  
 BC> 2
 ```
+
 Storms gather when management tell you about the addition of the new feature they’ve decided to add to **BC** (just as you were finishing your ☕️ break, _always …_). But you are well equipped with perseverance and patience, and diligently go back to work and produce the following missing utility, unlocking the full potential of **BC.**
 
 ```haskell
-_-- Applies a function to last result  
-_appliesFunction :: (Int -> Int) -> Program ()  
+-- Applies a function to last result  
+appliesFunction :: (Int -> Int) -> Program ()  
 appliesFunction = modify
+```
 
 Now you can rest at ease, as people can extend **BC** with unfathomed rich functions — as seen in the following example:
 
+```haskell
 -- the answer to the Ultimate Question of Life, the Universe, and Everything.  
 applyTheAnswer :: Program ()  
 applyTheAnswer = appliesFunction (const 42)
@@ -118,12 +123,14 @@ exampleProgram2 = do
 ```
 
 You can now rest at ease; your colleagues can see why when running:
+
 ```haskell
 λ> runProgram exampleProgram2  
 BC> 5  
 BC> 3  
 BC> 42
 ```
+
 #### So?
 
 Okay, so what is “_wrong”_ with the above approach? You’ve ended up with a nice abstraction over **BC** that allows people to write programs with your provided API, it is easy to extend and you’ve successfully delivered your product. The answer is: “_nothing”_ is fundamentally wrong with this approach, and it is very trivial to work with and implement.
@@ -144,17 +151,17 @@ I can hear you saying it, and you are right. I could have replaced the provided 
 
 So to summarise:
 
--   + easy to do.
--   + minimal dependencies.
--   + fast — _as close to the metal as it gets_.
--   - inflexible once implemented.
--   - does not (elegantly) allow manipulation of the program’s AST.
+- `+` easy to do.
+- `+` minimal dependencies.
+- `+` fast — _as close to the metal as it gets_.
+- `-` inflexible once implemented.
+- `-` does not (elegantly) allow manipulation of the program’s AST.
 
 #### Conclusion
 
 The article has introduced the series of short articles on modelling domain specific logic in Haskell. It has also introduced a (silly) problem, and proposed a trivial Transformers based solution to it. Lastly, the article has also tried to highlight the shortcomings of such an approach, and made us curious about how to deal with them.
 
-Until the next time, may the λ be with you.
+Until the next time, _may the λ be with you._
 
 ### Links
 - I originally posted this on [medium](https://medium.com/@cstml/free-vs-freer-vs-tagless-final-in-haskell-1-scenario-transformers-f8bc4495ea7e).
