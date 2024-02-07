@@ -20,10 +20,9 @@ $grey-color-dark: #adadad; /* such as the site title in the header, visited */
 
 @import "{{ site.theme }}";
 
-
-.highlight { background: black; }
-
-.highlighter-rouge .highlight { background: black; }
+.highlighter-rouge .highlight { 
+	background: black;
+}
 
 pre { 
     padding: 8px 12px; 
@@ -36,6 +35,7 @@ pre > code {
     padding-right: 0; 
     padding-left: 0; 
     background: black;
+    font-family: "Lucida Console", Courier, monospace;
 }
 
 pre, code {  
@@ -47,5 +47,5 @@ table tr:nth-child(even) {
 }
 
 body {
-    // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: sans-serif;
 }
