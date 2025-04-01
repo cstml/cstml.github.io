@@ -1,0 +1,27 @@
+name: Push to server
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: build 
+        run: |
+          bundle install
+          bundle exec jekyll build
+      - name: set up ssh 
+        run: |
+          mkdir -p ~/.ssh/
+          echo ${{ secrets.SSH_KEY }} > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -p 22 -H ${{ secrets.HOST }} >> ~/.ssh/known_hosts
+      - name: deploy
+        run: |
+          rsync -avz --delete ./_site/ ${{ secrets.HOST }}:/var/www/html/
+
+
