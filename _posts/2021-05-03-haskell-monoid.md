@@ -1,7 +1,11 @@
 ---
 theme: post
-date:  03-05-2021
+date:  2021/05/03
 title: "Haskell: Monoids"
+tags: [haskell]
+excerpt: >-
+  Well believe it or not, Haskell defines a Monoid as a Typeclass, that lets you 
+  do funky stuff. Great!
 ---
 (*Edited: 7-05-2021*)
 # Monoids

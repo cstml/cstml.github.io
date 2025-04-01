@@ -2,18 +2,10 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$background-color: #001d00; /* my fav dark green */
+$background-color: #000b00; /* my fav dark green */
 $text-color: #ddccbe;
 $grey-color-light: #565656; /* for the border-top separators */
 $grey-color-dark: #adadad; /* such as the site title in the header, visited */
-
-.code {
-    background: white;
-}
-
-.highlight {
-    background: white;
-}
 
 @import "{{ site.theme }}";
 
@@ -21,37 +13,31 @@ $grey-color-dark: #adadad; /* such as the site title in the header, visited */
 	background: black;
 }
 
-pre { 
-    padding: 8px 12px; 
-    overflow-x: auto; 
-    background: black;
-}
-
-pre > code { 
-    border: 0; 
-    padding-right: 0; 
-    padding-left: 0; 
-    background: black;
+code {  
+    background-color: black; 
     font-family: "Lucida Console", Courier, monospace;
 }
 
-pre, code {  
-    background-color: black; 
-}
-
-table tr:nth-child(even) { 
-    background-color: #001D00; 
-}
+// table tr:nth-child(even) { 
+//     background-color: #000b00; 
+// }
 
 body {
     font-family: sans-serif;
+    // background-color: #000b00;
 }
 
 h1 {
-    font-size: xx-large;
+    // font-size: xx-large;
     font-weight: bold;
 }
 
-h2 {
-    font-size: xx-large;
+.trigger {
+    display: block;
+    width: 80%;
+    wrap: 1;
 }
+
+// h2 {
+//     font-size: xx-large;
+// }

@@ -2,16 +2,16 @@
 theme: post
 date: 28-11-2020
 title: "workflow: Kattis competitive set-up"
+tags: [tmux]
 ---
 
-# Competing
-
 At Bath University, each Saturday the Bath Computer Science Society organises
-programming competitions. The format is:  
+programming competitions. 
+
+The format is:  
 - teams of 3/2 people 
 - 4 hours  
 - 5/6 problems from Kattis
-
 
 After competing for a while, I realised I could streamline my environment to
 suit the needs of such a competition. As the old adage goes, **every second

@@ -1,13 +1,12 @@
 ---
 theme: post
-date:  01-02-2021
+date:  2021/02/21
 title: "CLisp: Thread last - like Clojure"
+tags: [common-lisp]
 ---
 
-# Thread last - Common Lisp implementation
-
 These days I've been playing with `Clojure` and one macro I really liked was
-`->>` which is called `Thread last`. 
+`->>` which is called `Thread last`. Let's implement it in Common Lisp.
 
 ## What does it do
 

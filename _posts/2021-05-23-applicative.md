@@ -2,7 +2,11 @@
 theme:  post
 date:   23-05-2021
 title: "Haskell: Applicative"
+tags: [haskell]
 ---
+
+> Or how to do the same thing with a different approach.
+
 ## And a bit of Traversable
 *updated 2021-05-25*
 - [Hackage Applicative Documentation](https://hackage.haskell.org/package/base-4.15.0.0/docs/Control-Applicative.html)

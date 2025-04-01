@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Haskell: free vs freer vs tagless final #1"
+title:  "Haskell: free vs freer vs tagless final — #1 Scenario & Transformers"
 date:   2022-11-29
 categories: haskell
-tags: haskell Educational edsl monad
+tags: [haskell, edsl, monad]
 ---
-# Free vs Freer Vs Tagless Final in Haskell — #1 Scenario & Transformers
 
 > The battle of the decouplers.
 

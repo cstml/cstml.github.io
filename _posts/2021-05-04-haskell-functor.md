@@ -1,10 +1,9 @@
 ---
 theme: post
-date:  03-05-2021
+date:  2021-05-03
 title: "Haskell: Functor"
+tags: [haskell]
 ---
-
-# Functor
 
 Coming from the world of category theory, a functor is a mapping between two
 categories:

@@ -3,35 +3,8 @@ layout: post
 title:  "math: Bayes Theorem"
 date:   2020-05-24 
 categories: mathematics
-tags: Python Educational WIP
+tags: [python, educational]
 ---
-
-<!--- I've added this section for Kramdown to be able to read the math-->
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: [
-      "MathMenu.js",
-      "MathZoom.js",
-      "AssistiveMML.js",
-      "a11y/accessibility-menu.js"
-    ],
-    jax: ["input/TeX", "output/CommonHTML"],
-    TeX: {
-      extensions: [
-        "AMSmath.js",
-        "AMSsymbols.js",
-        "noErrors.js",
-        "noUndefined.js",
-      ]
-    }
-  });
-</script>
-
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<!---the section ends here -->
 
 To better define **Bayes Theorem**, one must have a good understanding of what
 all the constituent parts within it. For my own and everyone's benefit I will
@@ -39,7 +12,6 @@ break them down as much as possible. If you see any mistake, please point it out
 to me via GitHub, as I have written these myself in a creative frenzy.
 
 # Probability
-
 
 Probability can be defined as the number of favourable, or true outcomes of a
 hypothesis in relation to the number of total outcomes.

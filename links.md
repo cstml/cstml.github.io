@@ -1,0 +1,94 @@
+---
+layout: page
+title: Links
+permalink: /links/
+---
+
+- 2025-03-31
+    - [One Billion Row Challenge in Golang - From 95s to 1.96s](https://r2p.dev/b/2024-03-18-1brc-go/) - :GO:
+    - [Giving up the dylib dream](https://octet-stream.net/b/scb/2025-03-31-giving-up-the-dylib-dream.html) - :CS:
+    - [Interaction nets](https://wiki.xxiivv.com/site/interaction_nets.html) :CS:PL:    
+- 2025-03-03
+    - [Feather Icons - Simply beautiful open source icons](https://feathericons.com/) - :FE:
+- 2025-02-08
+    - [cstml.dev is born](https:cstml.dev) :CS:
+- 2023-08-17
+    - [Supabase](https://supabase.com/) - :WW:FOSS:
+- 2022-11-18
+    - [Getting started with GraphQL](https://graphql.org/graphql-js/) - :WW:JS:
+    - [Candle made only with CSS](https://codepen.io/Takuma_BMe/pen/BaVdNLK?editors=1111) - :WW:
+    - [HTML is all you need](https://news.ycombinator.com/item?id=33642490) - :HN:WW:
+- 2022-05-24
+    - [Profunctors, Arrows & Statical Analysis](https://elvishjerricco.github.io/2017/03/10/profunctors-arrows-and-static-analysis.html) :HS:CS:PL:
+- 2022-05-19
+    - [Programming in Lua](https://www.lua.org/pil/contents.html) - :CS:PL:
+- 2022-05-18
+    - [Computer Networking Notes](https://www.computernetworkingnotes.com/) - :CS:
+    - [OpenBBTerminal](https://github.com/OpenBB-finance/OpenBBTerminal) - an openSource investment terminal written in Python :US:
+- 2022-05-16
+    - [0xAX/linux-insides - book](https://github.com/0xAX/linux-insides) - :CS:UN:BO:
+    - [Crypto-Gram - May 15, 2022](https://www.schneier.com/crypto-gram/archives/2022/0515.html) - :CS:CR:NL:
+- 2022-05-12
+  - [Introductory resources to type theory for language implementers](https://www.haskellforall.com/2022/05/introductory-resources-to-type-theory.html) - :CS:TT:HS:
+  - [Koka Language](https://koka-lang.github.io/koka/doc/book.html#sec-semantics-of-effects) - :CS:PL:
+- 2022-05-11
+  - [CBOR - Standard](https://cbor.io/spec.html) - :CS:ST:
+  - [Vega Trails - Tremors in the Static](https://www.youtube.com/watch?v=k2Fmg9BWrBw) - :MU:
+  - [Arion Docker Compose and Nix](https://docs.hercules-ci.com/arion/) - :CS:US:
+  - [doctest-in-haskell](https://serokell.io/blog/doctests-in-haskell) - :CS:HS:
+  - [Apache Kafka in 6 minutes](https://www.youtube.com/watch?v=Ch5VhJzaoaI) - :CS:US:
+  - [devIT](https://devitjobs.uk/) - software jobs in the UK :CS:BS:
+  - [remote software jobs](https://news.ycombinator.com/item?id=31335904) - :CS:BS:
+  - [@rae: Impredicative types and dynamic types](https://www.youtube.com/watch?v=WplTbki3gCg) - :CS:HS:
+- 2022-05-10
+  - [MiniAgda: Integrating Sized and Dependent Types](https://arxiv.org/pdf/1012.4896.pdf) - :CS:DT:PA:
+  - [Unison programming language](https://www.unison-lang.org/learn/the-big-idea/) - The big idea :CS:PL:
+  - [Haskell weekly](https://haskellweekly.news/issue/314.html) - :CS:HS:
+  - [Zurihac 2022](https://zfoh.ch/zurihac2022/) - :CS:CO:HS:
+- 2022-05-06
+  - [Should you commit ego death?](https://www.youtube.com/watch?v=C0ofnCI6LF0) - Sisyphus 55 :PH:
+- 2022-05-05
+  - [crontab generator](https://crontab-generator.org/) - :CS:US:
+  - [GitLab team handbook](https://news.ycombinator.com/item?id=31270407) - :HN:SE:DC:BS:
+  - [After the first tech job](https://news.ycombinator.com/item?id=31267481) - :CS:SE:HN:DC:
+  - [HoTTEST Summer School 2022](https://uwo.ca/math/faculty/kapulkin/seminars/hottest_summer_school_2022.html) - :CS:AG:TT:HoTT:CO:
+  - [1lab.dev](https://1lab.dev/) - :CS:AG:TT:HoTT:
+  - [Univalent mathematics in Agda](https://github.com/UniMath/agda-unimath) - :CS:AG:TT:HoTT:
+  - [Introduction to Univalent Foundations of Mathematics with Agda](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html) - :CS:AG:TT:HoTT:
+  - [Logical manifestations of topological concepts, and other things.](https://github.com/martinescardo/TypeTopology) - :HoTT:CS:TT:
+  - [Tilde web-chat](https://tilde.chat/kiwi/#club) - :CO:
+  - [Free interpreter](https://monadplus.pro/haskell/2022/04/19/free-interpreter/) - Monad+ :CS:HS:
+  - [The end of the Redis adventure](http://antirez.com/news/133) - Antirez :CS:IR:
+  - [Writing system software: code comments](http://antirez.com/news/124) - Antirez :CS:
+  - [On Commenting Code](https://www.michaelpj.com/blog/2022/04/24/on-commenting-code.html) - Terms and Truth-Conditions :CS:
+
+
+# Tags
+
+- AG:   Agda
+- BO:   Book
+- BS:   Business of Software
+- CO:   Communities
+- CR:   Cryptography
+- CS:   Computer Science
+- DC:   Dev Culture
+- DT:   Dependent Types
+- FE:   Frontend
+- FOSS:   Free Open Source
+- HN:   HackerNews
+- HS:   Haskell
+- HoTT:   Homotopy Type Theory
+- IR:   Interesting Reads [^go]
+- JS:   Javascript
+- MU:   Music
+- NL:   Newsletter
+- PA:   Paper
+- PH:   Philosophy
+- PL:   Programming Languages
+- SE:   Software Enigneering
+- ST:   Standard
+- TT:   Type Theory
+- UN:   Unix
+- US:   Useful Software
+- WW:   Web
+- GO: Golang

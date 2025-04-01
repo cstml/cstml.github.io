@@ -2,9 +2,8 @@
 theme: post
 date: 01-12-2020
 title: "math: binary, hex, and logic"
+tags: [math]
 ---
-
-# Introduction
 
 Computers are, at their core, a logic based machine, that can store
 information, and do operations on the stored information. Let's have a look
@@ -33,13 +32,10 @@ Python Tool : `hex(variable)`
 Hexadecimal is a convenient way to work with Binary numbers as it is more
 compact and easier to convert to and from when working with binary.
 
-```bash
-                    Decimal:
-                            2481
-                    Binary:    
-                      0b  1001 1011 0001  
-                    Hex:
-                      0x   9   B    1
+```text
+Decimal:         2481
+Binary :  0b  1001  1011  0001  
+Hex    :  0x   9      B     1
 ```
 As you can see from the given example hexadecimal allows us to very fast get
 the representation in binary of the number. How does it do it? 
@@ -47,7 +43,7 @@ the representation in binary of the number. How does it do it?
 2. assign to each group of 4 their hexadecimal digit:
 3. you are done
 
-```bash
+```text
 binary  -> hex  -> decimal
 0000    -> 0    -> 0
 0001    -> 1    -> 1
@@ -97,12 +93,14 @@ Notation: `&`
 Description: It returns true only if both bits are true
 
 Example:
-```
+
+```text
 a = 0b1000
 b = 0b1001
 c = a & b
 c = 0b1000
 ```
+
 #### Common use:
 - turning off bits by applying a mask that has those specific bits turned off
  - example:
@@ -152,7 +150,7 @@ Notation: `^`
 
 - Description: It returns true only if both bits are different from one another
   - `xOR` can also be calculated by doing bit addition modulo 2 
-  - aplying `xor` twice will give you the initial number you started with i.e. 
+  - applying `xor` twice will give you the initial number you started with i.e. 
 
 ```text
 a xor b = c
@@ -199,10 +197,10 @@ Without going into too much detail there are 3 basic types of complements:
  - Sign bit complements
   - the sign changes
  - Ones' complement
-  - each bit changes to its oposite
+  - each bit changes to its opposite
  - Two's complement
-  - we take the one's complemnt and add 1 one to it. 
-  - in essence this is the -2^n bit of the number - this stands to mathematica
+  - we take the one's complement and add 1 one to it. 
+  - in essence this is the -2^n bit of the number - this stands to mathematical
     calculations
 
 The complement used is usually two's complement

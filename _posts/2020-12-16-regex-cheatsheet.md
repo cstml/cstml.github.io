@@ -1,10 +1,11 @@
 ---
-
 layout: post
 title: "regex: grep/egrep cheatsheet"
-date: 2020-12-16
-
+date: 2020/12/16
+categories: [unix,cheatsheet]
 ---
+
+Let's have a look at the `grep` and `egrep` commands.
 
 # `egrep` `grep` `regex`
 

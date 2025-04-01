@@ -2,14 +2,13 @@
 theme: post
 date:  04-08-2021
 title: "Haskell: Either."
+tags: [haskell]
 ---
 
-Either
-------
-
 Either is the `Prelude` provided type that allows us to work with functions that
-can return _either one result or another_. It does this by providing two
-constructors:
+can return _either one result or another_. 
+
+It does this by providing two constructors:
 
 ```haskell
 

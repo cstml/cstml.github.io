@@ -2,9 +2,10 @@
 theme: post
 date:  22-07-2021
 title: "Haskell: State and StateT examples."
+tags: [haskell]
 ---
 
-# A look at the State Monad and StateT Monad Transformer.
+> A look at the State Monad and StateT Monad Transformer.
 
 Beginning to work with Monads is an important aspect of learning to work with
 Haskell. I wanted to add my take on some simple examples to try and add to the

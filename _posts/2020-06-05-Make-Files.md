@@ -3,7 +3,7 @@ layout: post
 title: "build: Makefiles"
 date: 2020-06-06
 edited: 2020-10-16
-tags: C++, Linux
+tags: [linux]
 ---
 # Makefiles
 
@@ -53,7 +53,8 @@ leave any trace of the file executing, so the folder is nice and
 clean at the end
 
 Let's have a go at creating this:
-```
+
+```makefile
 
 all: execute clean
 
@@ -86,7 +87,7 @@ To have a look at what the above mini program does go to my
 
 If you want to define a rule that is applied to all .foo files when compiled 
 
-```
+```makefile
 %.o: %.foo
     fooc $(FOOFLAGS) -o $@ -c $<
 ```
@@ -101,9 +102,9 @@ If you want to define a rule that is applied to all .foo files when compiled
 | `$^`                                    | All the prerequisites                                        |
 | `$(wildcard *.cpp)`                     | will load all the `*.c` files                                |
 | `$(patsubst %.c,%.o,$(wildcard *.cpp))` | Will substitute all the `*.cpp` into `*.o`. Note the use of % to denote EACH |
-| `$(shell pwd)`			  | Exectues the shell comnmand					|
+| `$(shell pwd)`			              | Executes the shell command					|
 
-```
+```makefile
 all: library.cpp main.cpp
 
     $@ evaluates to all 
@@ -115,9 +116,9 @@ all: library.cpp main.cpp
 
 Makefiles are quite smart as well 
 
-```
+```makefile
 %.o : %.cpp
-#this will generate obj files from all of the cpp files without the need of any other comand
+#this will generate obj files from all of the cpp files without the need of any other command
 ```
 
 

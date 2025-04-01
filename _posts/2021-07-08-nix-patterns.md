@@ -2,9 +2,8 @@
 theme:  post
 date:   13-05-2021
 title:  "NIX: Small/Random, but Useful patterns"
+tags: [nix]
 ---
-
-## Nesting
 
 Say you have a few packages that you would like to build but you want an easy
 way of doing so.  Here's a handy little pattern that could help out. 

@@ -9,21 +9,44 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title:             ~/.cstml
+title:             ~/cstml.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  A blog like a sketchbook to keep track of my ideas, findings, 
+  A blog like a sketchbook to keep track of my ideas, findings,
   and learnings. Suggestions via PRs @github or DM me on twitter.
-baseurl:           "" 
-url:               https://cstml.github.io 
+
+baseurl:           ""
+url:               https://cstml.github.io
 github_username:   cstml
 twitter_username:  Cstml1
 devpost_username:  cstml
-linkedin_username: vladluchian  
+linkedin_username: vladluchian
 email:             cstmlcodes@gmail.com
 rss:               rss
 markdown:          kramdown
 theme:             minima
+show_excerpts:     true
 plugins:
   - jekyll-feed
   - jekyll-archives
   - jemoji
+  - jekyll-sitemap
+
+jekyll-archives:
+  enabled:
+    # - year
+    # - month
+    # - day
+    # - categories
+    - tags
+  layouts:
+    # year: archive-year
+    # month: archive-month
+    # day: archive-day
+    # category: archive-category
+    tag: archive-tag
+  permalinks:
+    # year: '/archives/:year/'
+    # month: '/archives/:year/:month/'
+    # day: '/archives/:year/:month/:day/'
+    # category: '/categories/:name/'
+    tag: '/tags/:name/'

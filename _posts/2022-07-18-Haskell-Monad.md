@@ -2,13 +2,10 @@
 theme: post
 date:  18-07-2022
 title: "Haskell: Monad."
+tags: [haskell]
 ---
 
-
-The Monad
----
-
-_or at least my attempt at explaining it_
+> _Or at least my attempt at explaining it_
 
 ```haskell
 
@@ -20,7 +17,7 @@ _or at least my attempt at explaining it_
 A monad is a haskell Class - this means it comes with specific methods. Let's
 have a look at what `ghci` has to say about it.
 
-```text
+```haskell
 
 λ> :i Monad
 class Applicative m => Monad (m :: * -> *) where
@@ -108,15 +105,19 @@ get our `Applicative` instance.
 Ok, so we've done all the footwork up until the Monad instance. Let's have a
 closer look at the _bind_ operator `(>>=)`.
 
-``` text
+```haskell
+
   Monad m => (>>=) :: m a -> (a -> m b) -> m b
+
 ```
 
 If we specialise this operator to what we're trying to achieve it looks more
 like this:
 
-``` text
+```haskell
+
   (>>=) :: Identity a -> (a -> Identity b) -> Identity b
+
 ```
 
 We have the following, a boxed value `a`, a function from `a` to a boxed `b`,
@@ -140,8 +141,10 @@ could really push it and say that fundamentally `Identity a` and `a` are one and
 the same thing - only one is wrapped in this mental box and the other isn't. We
 could  say that our bind is 
 
-``` text
+``` haskell
+
   (>>=) ::  a -> (a -> something b) -> something b
+
 ```
 
 and if we squint we could almost say that in this instance, Identity doesn't
@@ -161,7 +164,7 @@ which returns the half of an even number or `Nothing` if it is an odd number.
 
 ```
 
-```text
+```haskell
 
 
 λ> maybeHalf 1
@@ -188,7 +191,7 @@ Ok, so what happened now? Think of `(>>=)` as taking the result of `maybeHalf x`
 and passing it to the function `maybeHalf` again. That's neat because, when we
 see it action, it actually makes a lot of sense.
 
-```text
+```haskell
 
 λ> maybeQuarter 2
 Nothing
