@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: build 
         run: |
-          sudo apt-get install ruby-full
+          sudo gem install bundler
           bundle install
           bundle exec jekyll build
       - name: set up ssh 
