@@ -1,8 +1,15 @@
-.PHONY: run  install
+.PHONY: serve
+serve: install
+	bundle exec jekyll serve
 
-run: install
+.PHONY: build  
+build: install
 	bundle exec jekyll build 
-	bundle exec jekyll serve 
 
+.PHONY: install
 install: 
 	bundle install 
+
+.PHONY: publish
+publish: install build
+	rsync -avz --delete ./_site/ ionos-second:/var/www/html/

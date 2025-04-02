@@ -3,17 +3,14 @@ layout: post
 title: "build: Makefiles"
 date: 2020-06-06
 edited: 2020-10-16
-tags: [linux]
+tags: [linux, cheatsheet]
 ---
-# Makefiles
+A **`makefile`** tells **`make`**  what to do, and usually these instructions
+tell make how to compile and build a program. They are super useful when you
+have multi-file projects, but not only.  
 
 If you are wondering what the best documentation for Makefiles is
 please visit [the official manual](https://www.gnu.org/software/make/manual/make.pdf)
-
-#### What do they do
-A **`makefile`** tells **`make`** (which is a separate piece of software) what to
-do, and usually these instructions tell make how to compile and build a
-    program. They are super useful when you have multi-file projects, but not only.
 
 #### Syntax
 

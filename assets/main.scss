@@ -13,6 +13,19 @@ $grey-color-dark: #adadad; /* such as the site title in the header, visited */
 	background: black;
 }
 
+pre {
+    background-color: black;
+}
+
+.highlight .err {
+    background-color: black;
+    color: #d06b6b;
+}
+
+.highlight .nt {
+    color: #7f7fe8;
+}
+
 code {  
     background-color: black; 
     font-family: "Lucida Console", Courier, monospace;
