@@ -10,7 +10,7 @@
     overlays = [ ];
     pkgs = import nixpkgs {inherit system overlays;};
     cmake-bin = pkgs.cmake;
-    buildPkgs = with pkgs; [ cmake-bin ruby pandoc ]; 
+    buildPkgs = with pkgs; [ ruby act ]; 
     project = pkgs.stdenv.mkDerivation {
       name = "cstml.github.io";
       root = self;
