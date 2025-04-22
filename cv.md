@@ -14,6 +14,9 @@ toc: true
 {% assign awards = cv.data.awards %}
 
 
+> **If you want to [download My CV you can do so here]({{ site.baseurl }}/assets/pdfs/cv.pdf).** 
+
+---
 
 # {{ cv.data.name }}
 
